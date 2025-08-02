@@ -2,228 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Swerve256 | Creator Hub</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
   <style>
     body {
       margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #0d1b2a;
-      color: #f1f1f1;
-    }
-
-    .logo {
-      width: 120px;
-      max-width: 30%;
-      height: auto;
-      margin-bottom: 20px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 8px;
-    }
-
-    header.hero {
-      background: linear-gradient(to right, #1d3557, #457b9d);
-      color: white;
-      padding: 80px 20px;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #1f2f40, #3e5c76);
+      color: #fff;
       text-align: center;
     }
 
-    .hero h1 {
-      font-family: 'Bebas Neue', cursive;
-      font-size: 72px;
-      margin: 0;
+    header {
+      padding: 60px 20px 40px;
     }
 
-    .hero p {
-      font-size: 24px;
+    header img {
+      width: 200px;
+      max-width: 90%;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 20px 0 10px;
+    }
+
+    p {
+      font-size: 1.2em;
       margin: 10px 0 30px;
     }
 
     .cta-button {
-      background-color: #e63946;
+      background-color: #ff4d4d;
       color: white;
-      padding: 12px 24px;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      border-radius: 8px;
+      cursor: pointer;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 6px;
-      transition: background-color 0.3s ease;
     }
 
-    .cta-button:hover {
-      background-color: #d62839;
+    #members {
+      padding: 60px 20px;
+      background-color: #0f1a25;
     }
 
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
+    #members h2 {
+      font-size: 2.5em;
+      margin-bottom: 40px;
     }
 
-    section h2 {
-      font-family: 'Bebas Neue', cursive;
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-
-    .video-wrapper {
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
-    }
-
-    .video-wrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    .schedule ul {
-      list-style: none;
-      padding-left: 0;
-      font-size: 18px;
-    }
-
-    .schedule li {
-      margin-bottom: 10px;
-    }
-
-    .members {
-      background-color: #1b263b;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    .members h2 {
-      font-family: 'Bebas Neue', cursive;
-      font-size: 36px;
-      margin-bottom: 30px;
-      color: #f1f1f1;
-    }
-
-    .member-list {
+    .member-grid {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 20px;
+      gap: 40px;
     }
 
     .member-card {
-      background-color: #0d1b2a;
-      border-radius: 12px;
-      padding: 20px;
-      max-width: 220px;
-      box-shadow: 0 0 10px rgba(255,255,255,0.1);
-    }
-
-    .member-pic {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 10px;
-      border: 2px solid #e63946;
-    }
-
-    .member-name {
-      font-weight: bold;
-      font-size: 18px;
-      color: #f1f1f1;
-      margin: 5px 0;
-    }
-
-    .member-link {
-      color: #a8dadc;
-      text-decoration: none;
-      font-size: 14px;
-    }
-
-    .member-link:hover {
-      text-decoration: underline;
-    }
-
-    .member-quote {
-      font-size: 12px;
-      color: #ccc;
-      margin-top: 8px;
-    }
-
-    footer {
+      max-width: 200px;
       text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      background-color: #1b263b;
-      color: #ccc;
     }
 
-    @media screen and (max-width: 600px) {
-      .hero h1 {
-        font-size: 48px;
-      }
+    .member-card img {
+      width: 100%;
+      border-radius: 50%;
+      border: 3px solid #ff4d4d;
+    }
 
-      .hero p {
-        font-size: 18px;
-      }
+    .member-card h3 {
+      margin-top: 15px;
+    }
+
+    .member-card p {
+      font-style: italic;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-content">
-      <img src="Logo.png" alt="Swerve256 Logo" class="logo">
-      <h1>Swerve256</h1>
-      <p>Streaming Souls, Skies, and Stories.</p>
-      <a href="https://www.youtube.com/@Swerve256" target="_blank" class="cta-button">Watch Now</a>
-    </div>
+  <header>
+    <img src="Logo.png" alt="Swerve256 Logo" />
+    <h1>SWERVE256</h1>
+    <p>Streaming Souls, Skies, and Stories.</p>
+    <a href="https://www.youtube.com/@Swerve256" class="cta-button" target="_blank">Watch Now</a>
   </header>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>
-      I'm Shaun, aka Swerve256 — a live-streaming content creator diving into Soulslike games,
-      scenic flight journeys, and epic story-driven adventures. I go live daily, play through
-      entire games start to finish, and hang out with a growing crew of legends. Come join the ride.
-    </p>
-  </section>
-
-  <section class="youtube">
-    <h2>Latest Video</h2>
-    <div class="video-wrapper">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=user_uploads&list=Swerve256" 
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-  </section>
-
-  <section class="schedule">
-    <h2>Livestream Schedule</h2>
-    <ul>
-      <li><strong>Monday–Friday:</strong> 8 PM – Midnight CT</li>
-      <li><strong>Saturday:</strong> 10 AM – Open End (Souls-A-Thon++)</li>
-      <li><strong>Sunday:</strong> Flight Sim / Chill stream days</li>
-    </ul>
-  </section>
-
-  <section class="members">
-    <h2>Members</h2>
-    <div class="member-list">
+  <section id="members">
+    <h2>Channel Members</h2>
+    <div class="member-grid">
       <div class="member-card">
-        <img src="timiny.jpg" alt="@Timinycricket" class="member-pic">
-        <p class="member-name">@Timinycricket</p>
-        <a href="https://www.youtube.com/@Timinycricket" target="_blank" class="member-link">Visit Channel</a>
-        <p class="member-quote">“Maria’s Blessing” – a true Bloodborne soul</p>
+        <a href="https://www.youtube.com/@timinycricket1965" target="_blank">
+          <img src="timiny.jpg" alt="Timinycricket">
+          <h3>Timinycricket</h3>
+          <p>"Maria’s Blessing."</p>
+        </a>
       </div>
     </div>
   </section>
-
-  <footer>
-    <p>Made with ❤️ by Swerve256 & ChatGPT</p>
-  </footer>
 </body>
 </html>
