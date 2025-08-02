@@ -93,6 +93,65 @@
     .schedule li {
       margin-bottom: 10px;
     }
+.members {
+  background-color: #1b263b;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.members h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #f1f1f1;
+}
+
+.member-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.member-card {
+  background-color: #0d1b2a;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 220px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.member-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #e63946;
+}
+
+.member-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #f1f1f1;
+  margin: 5px 0;
+}
+
+.member-link {
+  color: #a8dadc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.member-link:hover {
+  text-decoration: underline;
+}
+
+.member-quote {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 8px;
+}
 
     footer {
       text-align: center;
@@ -150,6 +209,18 @@
       <li><strong>Sunday:</strong> Flight Sim / Chill stream days</li>
     </ul>
   </section>
+<section class="members">
+  
+  <h2>Members</h2>
+  <div class="member-list">
+    <div class="member-card">
+      <img src="timiny.jpg" alt="@Timinycricket" class="member-pic">
+      <p class="member-name">@Timinycricket</p>
+      <a href="https://www.youtube.com/@Timinycricket" target="_blank" class="member-link">Visit Channel</a>
+      <p class="member-quote">“Maria’s Blessing” – a true Bloodborne soul</p>
+    </div>
+  </div>
+</section>
 
   <footer>
     <p>Made with ❤️ by Swerve256 & ChatGPT</p>
