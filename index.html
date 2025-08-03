@@ -45,9 +45,26 @@
       text-decoration: none;
     }
 
+    #about {
+      background-color: #0f1a25;
+      padding: 60px 20px;
+    }
+
+    #about h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    #about p {
+      font-size: 1.1em;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
     #members {
       padding: 60px 20px;
-      background-color: #0f1a25;
+      background-color: #1a1f2b;
     }
 
     #members h2 {
@@ -82,6 +99,32 @@
       font-size: 0.9em;
     }
 
+    #series {
+      padding: 60px 20px;
+      background-color: #0f1a25;
+    }
+
+    #series h2 {
+      font-size: 2.5em;
+      margin-bottom: 40px;
+    }
+
+    .series-block {
+      margin-bottom: 60px;
+    }
+
+    .series-block h3 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+    }
+
     a {
       color: inherit;
       text-decoration: none;
@@ -100,6 +143,15 @@
     <a href="https://www.youtube.com/@Swerve256" class="cta-button" target="_blank">Watch Now</a>
   </header>
 
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Shaun, aka Swerve256 — a live-streaming content creator diving into Soulslike games,
+      scenic flight journeys, and epic story-driven adventures. I go live daily, play through
+      entire games start to finish, and hang out with a growing crew of legends. Come join the ride.
+    </p>
+  </section>
+
   <section id="members">
     <h2>Channel Members</h2>
     <div class="member-grid">
@@ -110,6 +162,34 @@
           <p>"Maria’s Blessing."</p>
         </a>
       </div>
+    </div>
+  </section>
+
+  <section id="series">
+    <h2>🎮 Featured Series</h2>
+
+    <div class="series-block">
+      <h3>Demon's Souls</h3>
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLJXHEcCcFx71XMrHvMG-UTaITAAxzMuIo"
+        title="Demon's Souls Playlist" allowfullscreen></iframe>
+    </div>
+
+    <div class="series-block">
+      <h3>Dark Souls</h3>
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLJXHEcCcFx73DW0UP6e872oPso7e4TKa4"
+        title="Dark Souls Playlist" allowfullscreen></iframe>
+    </div>
+
+    <div class="series-block">
+      <h3>Dark Souls II</h3>
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLJXHEcCcFx72ofu1s6fOMK_3EpaWvYCnT"
+        title="Dark Souls II Playlist" allowfullscreen></iframe>
+    </div>
+
+    <div class="series-block">
+      <h3>Elden Ring (Level 1 Challenge)</h3>
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLJXHEcCcFx71Ej2LzLRNAmVdj_nynyJk9"
+        title="Elden Ring Level 1 Playlist" allowfullscreen></iframe>
     </div>
   </section>
 </body>
