@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-09-19T13:49:07-05:00",
+  "generated_at": "2026-09-19T15:11:51-05:00",
   "latest_stream": {
     "stream_id": 118,
     "date": "2026-09-18",
     "title": "Stream #118",
     "game": "",
     "duration": "3h 20m",
-    "messages": 262,
-    "unique_chatters": 30,
-    "top_chatter": "Swervebot"
+    "messages": 194,
+    "unique_chatters": 29,
+    "top_chatter": "thyagarajan4577"
   },
   "streak_leaders": [
-    {
-      "username": "Swervebot",
-      "streak": 73
-    },
     {
       "username": "lashonnakennybrew4847",
       "streak": 35
@@ -50,13 +46,13 @@
     {
       "username": "nvt_professor",
       "streak": 2
+    },
+    {
+      "username": "onebrickatatime7",
+      "streak": 2
     }
   ],
   "top_chatters": [
-    {
-      "username": "Swervebot",
-      "messages": 68
-    },
     {
       "username": "thyagarajan4577",
       "messages": 25
@@ -92,13 +88,13 @@
     {
       "username": "moonlitshadow375",
       "messages": 11
+    },
+    {
+      "username": "tintorinomestizo876",
+      "messages": 9
     }
   ],
   "all_time_chatters": [
-    {
-      "username": "Swervebot",
-      "messages": 4430
-    },
     {
       "username": "LordBlazeWolf5285",
       "messages": 1460
@@ -134,11 +130,15 @@
     {
       "username": "Lark_man",
       "messages": 556
+    },
+    {
+      "username": "moonlitshadow375",
+      "messages": 509
     }
   ],
   "all_time": {
     "validated_streams": 115,
-    "total_messages": 24405,
-    "unique_chatters": 416
+    "total_messages": 19975,
+    "unique_chatters": 415
   }
 }
