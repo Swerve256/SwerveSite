@@ -4,7 +4,7 @@ No credentials are stored in this repository. The script loads database settings
 from environment variables and, when present, from a local .env file.
 
 Default local .env path on the stream PC:
-  C:\\stream-backend\\.env
+  C:\stream-backend\.env
 
 Supported variables:
   SWERVE_DB_HOST (default: localhost)
@@ -91,6 +91,7 @@ def main() -> None:
                    COUNT(DISTINCT viewer_id) AS unique_chatters
             FROM chat_messages
             WHERE stream_id = %s
+              AND LOWER(COALESCE(username, '')) <> 'swervebot'
             """,
             (latest_id,),
         )
@@ -101,6 +102,7 @@ def main() -> None:
             SELECT viewer_id, MAX(username) AS username, COUNT(*) AS message_count
             FROM chat_messages
             WHERE stream_id = %s
+              AND LOWER(COALESCE(username, '')) <> 'swervebot'
             GROUP BY viewer_id
             ORDER BY message_count DESC, username ASC
             LIMIT 10
@@ -117,6 +119,7 @@ def main() -> None:
             FROM chat_messages cm
             JOIN streams s ON s.stream_id = cm.stream_id
             WHERE s.is_validated = 1
+              AND LOWER(COALESCE(cm.username, '')) <> 'swervebot'
             GROUP BY cm.viewer_id
             ORDER BY message_count DESC, username ASC
             LIMIT 10
@@ -131,6 +134,7 @@ def main() -> None:
             FROM chat_messages cm
             JOIN streams s ON s.stream_id = cm.stream_id
             WHERE s.is_validated = 1
+              AND LOWER(COALESCE(cm.username, '')) <> 'swervebot'
             """
         )
         all_time = cur.fetchone()
@@ -144,6 +148,7 @@ def main() -> None:
             FROM chat_messages cm
             JOIN streams s ON s.stream_id = cm.stream_id
             WHERE s.is_validated = 1
+              AND LOWER(COALESCE(cm.username, '')) <> 'swervebot'
             """
         )
         attendance_rows = cur.fetchall()
