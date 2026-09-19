@@ -1,0 +1,144 @@
+{
+  "generated_at": "2026-09-19T13:49:07-05:00",
+  "latest_stream": {
+    "stream_id": 118,
+    "date": "2026-09-18",
+    "title": "Stream #118",
+    "game": "",
+    "duration": "3h 20m",
+    "messages": 262,
+    "unique_chatters": 30,
+    "top_chatter": "Swervebot"
+  },
+  "streak_leaders": [
+    {
+      "username": "Swervebot",
+      "streak": 73
+    },
+    {
+      "username": "lashonnakennybrew4847",
+      "streak": 35
+    },
+    {
+      "username": "AngryManGaming_AMG",
+      "streak": 6
+    },
+    {
+      "username": "akshaynd95",
+      "streak": 4
+    },
+    {
+      "username": "Dipshitasaurus_Rex",
+      "streak": 4
+    },
+    {
+      "username": "SirX704",
+      "streak": 4
+    },
+    {
+      "username": "donovonbailey9740",
+      "streak": 3
+    },
+    {
+      "username": "LoverofTRUTH-l4s",
+      "streak": 2
+    },
+    {
+      "username": "moonlitshadow375",
+      "streak": 2
+    },
+    {
+      "username": "nvt_professor",
+      "streak": 2
+    }
+  ],
+  "top_chatters": [
+    {
+      "username": "Swervebot",
+      "messages": 68
+    },
+    {
+      "username": "thyagarajan4577",
+      "messages": 25
+    },
+    {
+      "username": "solomonsignet",
+      "messages": 20
+    },
+    {
+      "username": "robertdurant2078",
+      "messages": 18
+    },
+    {
+      "username": "Dipshitasaurus_Rex",
+      "messages": 16
+    },
+    {
+      "username": "scaleworksRC",
+      "messages": 15
+    },
+    {
+      "username": "lashonnakennybrew4847",
+      "messages": 13
+    },
+    {
+      "username": "donovonbailey9740",
+      "messages": 12
+    },
+    {
+      "username": "AngryManGaming_AMG",
+      "messages": 11
+    },
+    {
+      "username": "moonlitshadow375",
+      "messages": 11
+    }
+  ],
+  "all_time_chatters": [
+    {
+      "username": "Swervebot",
+      "messages": 4430
+    },
+    {
+      "username": "LordBlazeWolf5285",
+      "messages": 1460
+    },
+    {
+      "username": "Dipshitasaurus_Rex",
+      "messages": 1449
+    },
+    {
+      "username": "lashonnakennybrew4847",
+      "messages": 1263
+    },
+    {
+      "username": "solomonsignet",
+      "messages": 1241
+    },
+    {
+      "username": "Catsanddogshavefun",
+      "messages": 1223
+    },
+    {
+      "username": "AngryManGaming_AMG",
+      "messages": 896
+    },
+    {
+      "username": "JAYDONDO",
+      "messages": 629
+    },
+    {
+      "username": "scaleworksRC",
+      "messages": 560
+    },
+    {
+      "username": "Lark_man",
+      "messages": 556
+    }
+  ],
+  "all_time": {
+    "validated_streams": 115,
+    "total_messages": 24405,
+    "unique_chatters": 416
+  }
+}
