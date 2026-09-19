@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/swerve.css">
+  <link rel="stylesheet" href="css/brand-v2.css">
 </head>
 <body>
   <header class="site-header">
@@ -55,10 +56,36 @@
     <section class="section section-dark">
       <div class="container">
         <div class="section-heading split-heading">
-          <div><p class="eyebrow">THE COMMUNITY IS THE CONTENT</p><h2>More than a viewer count.</h2></div>
-          <p>Every stream adds to the story. SwerveSite 2.0 will track the community that keeps showing up — streaks, chat activity, stream recaps and records.</p>
+          <div>
+            <p class="eyebrow">THE COMMUNITY IS THE CONTENT</p>
+            <h2>More than a viewer count.</h2>
+          </div>
+          <p>Every stream adds to the story. SwerveSite 2.0 tracks the community that keeps showing up — streaks, chat activity, stream recaps and records.</p>
         </div>
-        <div class="feature-grid">
+
+        <div class="home-recap">
+          <article class="home-recap-card">
+            <p class="eyebrow">LATEST VALIDATED STREAM</p>
+            <h3 id="homeLatestTitle">Latest validated stream</h3>
+            <p>Once the stats publisher is connected, this card updates automatically after stream validation.</p>
+            <div class="home-metrics">
+              <div class="home-metric"><strong id="homeMessages">—</strong><span>MESSAGES</span></div>
+              <div class="home-metric"><strong id="homeChatters">—</strong><span>CHATTERS</span></div>
+              <div class="home-metric"><strong id="homeDuration">—</strong><span>STREAM TIME</span></div>
+            </div>
+          </article>
+
+          <article class="home-recap-card">
+            <p class="eyebrow">CURRENT STREAK LEADERS</p>
+            <h3>Who keeps showing up?</h3>
+            <div id="homeStreakLeaders" class="home-leaders">
+              <p>Streak leaders will appear when the stats publisher goes live.</p>
+            </div>
+            <a class="text-link" href="stats.html">See all community stats →</a>
+          </article>
+        </div>
+
+        <div class="feature-grid" style="margin-top:22px">
           <a class="feature-card feature-card-primary" href="stats.html">
             <span class="card-kicker">COMMUNITY STATS</span>
             <h3>Who's on a streak?</h3>
@@ -101,7 +128,10 @@
 
     <section class="section section-accent">
       <div class="container respawn-callout">
-        <div><p class="eyebrow">RESPAWN ROOM</p><h2>Games, news, guests and whatever happens next.</h2></div>
+        <div>
+          <p class="eyebrow">RESPAWN ROOM</p>
+          <h2>Games, news, guests and whatever happens next.</h2>
+        </div>
         <p>The live podcast side of Swerve256. Pull up a chair, hang out with the crew and get into the conversation.</p>
       </div>
     </section>
@@ -114,6 +144,8 @@
       <div class="footer-copy">© <span id="year"></span> Swerve256</div>
     </div>
   </footer>
+
   <script src="js/site.js"></script>
+  <script src="js/home.js"></script>
 </body>
 </html>
