@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Current Swerve256 YouTube channel members.">
+  <title>Members | Swerve256</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swerve.css">
+  <link rel="stylesheet" href="css/brand-v2.css">
+  <link rel="stylesheet" href="css/members.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><img src="assets/swerve-logo.webp" alt="Swerve256 logo"><span>SWERVE<span>256</span></span></a>
+  <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">MENU</button>
+  <nav class="site-nav"><a href="index.html">Home</a><a href="stats.html">Stats</a><a href="streams.html">Streams</a><a href="respawn.html">Respawn Room</a><a class="active" href="community.html">Community</a><a href="about.html">About</a></nav>
+  <a class="button button-small desktop-cta" href="https://www.youtube.com/@Swerve256" target="_blank" rel="noopener">Watch on YouTube</a>
+</header>
+<main>
+  <section class="page-hero members-hero">
+    <div class="container">
+      <p class="eyebrow">THE CREW</p>
+      <h1>CHANNEL<br>MEMBERS.</h1>
+      <p>These are the people currently backing Swerve256 as YouTube channel members. Every name links directly to that member's YouTube channel.</p>
+      <div class="members-summary"><strong id="memberCount">—</strong><span>CURRENT MEMBERS</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="members-toolbar">
+        <div>
+          <p class="eyebrow">MEMBER WALL</p>
+          <h2>Ride with the crew.</h2>
+        </div>
+        <p id="memberUpdated" class="members-updated">Loading member data...</p>
+      </div>
+      <div id="memberGrid" class="member-grid">
+        <div class="member-loading">Loading members...</div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><strong>SWERVE<span>256</span></strong><p>Hard games. Good people. Let it ride.</p></div><div class="footer-links"><a href="stats.html">Stats</a><a href="streams.html">Streams</a><a href="respawn.html">Respawn Room</a><a href="community.html">Community</a><a href="members.html">Members</a><a href="about.html">About</a></div><div class="footer-copy">© <span id="year"></span> Swerve256</div></div></footer>
+<script src="js/site.js"></script>
+<script src="js/members.js"></script>
+</body>
+</html>
