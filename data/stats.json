@@ -4,6 +4,7 @@
     "stream_id": null,
     "date": null,
     "title": "Latest validated stream",
+    "game": "",
     "duration": "—",
     "messages": "—",
     "unique_chatters": "—",
@@ -11,6 +12,7 @@
   },
   "streak_leaders": [],
   "top_chatters": [],
+  "all_time_chatters": [],
   "all_time": {
     "validated_streams": "—",
     "total_messages": "—",
