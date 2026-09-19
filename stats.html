@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta name="description" content="Swerve256 community stats, attendance streaks and stream recaps.">
   <title>Community Stats | Swerve256</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/swerve.css">
   <link rel="stylesheet" href="css/brand-v2.css">
@@ -17,19 +18,61 @@
   <nav class="site-nav"><a href="index.html">Home</a><a class="active" href="stats.html">Stats</a><a href="streams.html">Streams</a><a href="respawn.html">Respawn Room</a><a href="community.html">Community</a><a href="about.html">About</a></nav>
   <a class="button button-small desktop-cta" href="https://www.youtube.com/@Swerve256" target="_blank" rel="noopener">Watch on YouTube</a>
 </header>
+
 <main>
-  <section class="page-hero"><div class="container"><p class="eyebrow">COMMUNITY STATS</p><h1>THE NUMBERS<br>BEHIND THE CREW.</h1><p>Validated stream recaps, attendance streaks, chat activity and all-time community records. This page updates after an approved stream.</p></div></section>
+  <section class="page-hero"><div class="container"><p class="eyebrow">COMMUNITY STATS</p><h1>THE NUMBERS<br>BEHIND THE CREW.</h1><p>Validated stream recaps, attendance streaks, chat activity and all-time community records. Stats publish after an approved stream.</p></div></section>
+
   <section class="section"><div class="container">
-    <div class="stats-grid" id="statCards">
+    <div class="stats-status">
+      <div><span class="status-dot"></span><strong>VALIDATED DATA</strong></div>
+      <span id="statsUpdated">Waiting for first published snapshot</span>
+    </div>
+
+    <div class="stats-grid stats-grid-six" id="statCards">
       <div class="stat-card"><strong id="latestMessages">—</strong><span>Messages — Latest Stream</span></div>
-      <div class="stat-card"><strong id="latestChatters">—</strong><span>Unique Chatters</span></div>
+      <div class="stat-card"><strong id="latestChatters">—</strong><span>Unique Chatters — Latest</span></div>
       <div class="stat-card"><strong id="validatedStreams">—</strong><span>Validated Streams</span></div>
       <div class="stat-card"><strong id="allTimeMessages">—</strong><span>All-Time Messages</span></div>
+      <div class="stat-card"><strong id="allTimeChatters">—</strong><span>All-Time Unique Chatters</span></div>
+      <div class="stat-card"><strong id="longestCurrentStreak">—</strong><span>Longest Current Streak</span></div>
     </div>
-    <div class="table-card"><p class="eyebrow">CURRENT LEADERS</p><h2>Top Streaks</h2><div class="leaderboard" id="streakLeaderboard"><p>Stats publishing is being connected to the stream backend.</p></div></div>
-    <div class="table-card"><p class="eyebrow">LATEST VALIDATED STREAM</p><h2 id="latestTitle">Stream recap coming online.</h2><div class="leaderboard" id="latestRecap"></div></div>
+
+    <div class="stats-dashboard-grid">
+      <section class="table-card">
+        <p class="eyebrow">CURRENT LEADERS</p>
+        <h2>Top Streaks</h2>
+        <p class="table-intro">One interaction during a validated stream keeps a streak alive.</p>
+        <div class="leaderboard" id="streakLeaderboard"><p>Stats publishing is being connected to the stream backend.</p></div>
+      </section>
+
+      <section class="table-card">
+        <p class="eyebrow">LATEST VALIDATED STREAM</p>
+        <h2 id="latestTitle">Stream recap coming online.</h2>
+        <p class="table-intro" id="latestMeta">Final numbers appear here after validation.</p>
+        <div class="leaderboard" id="latestRecap"></div>
+      </section>
+    </div>
+
+    <div class="stats-dashboard-grid">
+      <section class="table-card">
+        <p class="eyebrow">LATEST STREAM</p>
+        <h2>Top Chatters</h2>
+        <p class="table-intro">Message totals from the most recent validated stream.</p>
+        <div class="leaderboard" id="latestChattersBoard"><p>Waiting for published stats.</p></div>
+      </section>
+
+      <section class="table-card">
+        <p class="eyebrow">ALL TIME</p>
+        <h2>Chat Leaders</h2>
+        <p class="table-intro">Messages across every validated stream in the Swerve stats database.</p>
+        <div class="leaderboard" id="allTimeChattersBoard"><p>Waiting for published stats.</p></div>
+      </section>
+    </div>
   </div></section>
 </main>
+
 <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><strong>SWERVE<span>256</span></strong><p>Hard games. Good people. Let it ride.</p></div><div class="footer-links"><a href="stats.html">Stats</a><a href="streams.html">Streams</a><a href="respawn.html">Respawn Room</a><a href="community.html">Community</a><a href="about.html">About</a></div><div class="footer-copy">© <span id="year"></span> Swerve256</div></div></footer>
-<script src="js/site.js"></script><script src="js/stats.js"></script>
-</body></html>
+<script src="js/site.js"></script>
+<script src="js/stats.js"></script>
+</body>
+</html>
