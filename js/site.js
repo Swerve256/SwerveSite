@@ -1,3 +1,9 @@
+const favicon = document.createElement('link');
+favicon.rel = 'icon';
+favicon.type = 'image/webp';
+favicon.href = 'assets/swerve-logo.webp';
+document.head.appendChild(favicon);
+
 const toggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.site-nav');
 
