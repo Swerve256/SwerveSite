@@ -6,8 +6,8 @@ has been validated. It deliberately publishes only data/stats.json.
 Requirements:
 - The repository must already be cloned locally.
 - Git authentication must already be configured for `git push`.
-- SWERVE_DB_PASSWORD must be present in the environment for build_stats.py.
-- The current Git branch must match SWERVE_SITE_BRANCH (default: swerve-2.0).
+- SWERVE_DB_PASSWORD must be available to build_stats.py (environment or local .env).
+- The current Git branch must match SWERVE_SITE_BRANCH (default: main).
 
 No GitHub token or database credential is stored in this repository.
 """
@@ -23,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 STATS_FILE = ROOT / "data" / "stats.json"
 BUILD_SCRIPT = ROOT / "tools" / "build_stats.py"
-EXPECTED_BRANCH = os.environ.get("SWERVE_SITE_BRANCH", "swerve-2.0")
+EXPECTED_BRANCH = os.environ.get("SWERVE_SITE_BRANCH", "main")
 
 
 def run(*args: str, capture: bool = False) -> subprocess.CompletedProcess[str]:
