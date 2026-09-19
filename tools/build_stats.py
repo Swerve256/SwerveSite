@@ -1,10 +1,17 @@
 """Generate public SwerveSite stats from the local stream_stats MySQL database.
 
-No credentials are stored in this repository. Set these environment variables before running:
+No credentials are stored in this repository. The script loads database settings
+from environment variables and, when present, from a local .env file.
+
+Default local .env path on the stream PC:
+  C:\\stream-backend\\.env
+
+Supported variables:
   SWERVE_DB_HOST (default: localhost)
   SWERVE_DB_USER (default: root)
   SWERVE_DB_PASSWORD (required)
   SWERVE_DB_NAME (default: stream_stats)
+  SWERVE_ENV_FILE (optional override for the .env path)
 
 The script only publishes aggregate/community-facing data to data/stats.json.
 """
@@ -18,15 +25,24 @@ from datetime import datetime
 from pathlib import Path
 
 import mysql.connector
+from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "stats.json"
+
+DEFAULT_ENV_FILE = Path(r"C:\stream-backend\.env")
+ENV_FILE = Path(os.environ.get("SWERVE_ENV_FILE", str(DEFAULT_ENV_FILE)))
+if ENV_FILE.exists():
+    load_dotenv(ENV_FILE)
 
 
 def db_config() -> dict:
     password = os.environ.get("SWERVE_DB_PASSWORD")
     if not password:
-        raise RuntimeError("SWERVE_DB_PASSWORD is not set")
+        raise RuntimeError(
+            "SWERVE_DB_PASSWORD is not set. "
+            f"Set it in the environment or in {ENV_FILE}."
+        )
 
     return {
         "host": os.environ.get("SWERVE_DB_HOST", "localhost"),
