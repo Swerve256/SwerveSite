@@ -85,6 +85,9 @@ def main() -> int:
             f"Expected '{EXPECTED_BRANCH}'."
         )
 
+    # Sync remote website changes first so a later push is not rejected.
+    run("git", "pull", "--rebase", "origin", EXPECTED_BRANCH)
+
     print("Building validated public stats snapshot...")
     run(sys.executable, str(BUILD_SCRIPT))
 
