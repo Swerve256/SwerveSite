@@ -1,97 +1,97 @@
 {
-  "generated_at": "2026-09-19T17:35:18-05:00",
+  "generated_at": "2026-09-19T21:18:29-05:00",
   "latest_stream": {
-    "stream_id": 118,
-    "date": "2026-09-18",
-    "title": "GN\u00c1 IS RUNNING OUT OF TIME\u2026 \ud83d\udc80 | God of War Ragnar\u00f6k (GMGOW Ep. 40)",
+    "stream_id": 119,
+    "date": "2026-09-19",
+    "title": "Vertical | VALHALLA IS JUST GETTING STARTED\u2026 \ud83d\udc80 | God of War Ragnar\u00f6k: Valhalla (Ep. 2)",
     "game": "",
-    "duration": "3h 20m",
-    "messages": 194,
-    "unique_chatters": 29,
-    "top_chatter": "thyagarajan4577"
+    "duration": "2h 50m",
+    "messages": 203,
+    "unique_chatters": 27,
+    "top_chatter": "jjp8806able"
   },
   "streak_leaders": [
     {
       "username": "lashonnakennybrew4847",
-      "streak": 35
+      "streak": 36
     },
     {
       "username": "AngryManGaming_AMG",
-      "streak": 6
-    },
-    {
-      "username": "akshaynd95",
-      "streak": 4
+      "streak": 7
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streak": 4
+      "streak": 5
     },
     {
       "username": "SirX704",
-      "streak": 4
+      "streak": 5
     },
     {
       "username": "donovonbailey9740",
-      "streak": 3
-    },
-    {
-      "username": "LoverofTRUTH-l4s",
-      "streak": 2
+      "streak": 4
     },
     {
       "username": "moonlitshadow375",
+      "streak": 3
+    },
+    {
+      "username": "fortnitegamer-dg9",
       "streak": 2
     },
     {
-      "username": "nvt_professor",
+      "username": "godofgodofwar9",
       "streak": 2
     },
     {
-      "username": "onebrickatatime7",
+      "username": "scaleworksRC",
+      "streak": 2
+    },
+    {
+      "username": "solomonsignet",
       "streak": 2
     }
   ],
   "top_chatters": [
     {
-      "username": "thyagarajan4577",
-      "messages": 25
-    },
-    {
-      "username": "solomonsignet",
-      "messages": 20
-    },
-    {
-      "username": "robertdurant2078",
-      "messages": 18
-    },
-    {
-      "username": "Dipshitasaurus_Rex",
-      "messages": 16
-    },
-    {
-      "username": "scaleworksRC",
-      "messages": 15
-    },
-    {
-      "username": "lashonnakennybrew4847",
-      "messages": 13
-    },
-    {
-      "username": "donovonbailey9740",
-      "messages": 12
+      "username": "jjp8806able",
+      "messages": 38
     },
     {
       "username": "AngryManGaming_AMG",
-      "messages": 11
+      "messages": 16
     },
     {
-      "username": "moonlitshadow375",
-      "messages": 11
+      "username": "godofgodofwar9",
+      "messages": 14
+    },
+    {
+      "username": "scaleworksRC",
+      "messages": 14
     },
     {
       "username": "tintorinomestizo876",
-      "messages": 9
+      "messages": 12
+    },
+    {
+      "username": "tyler902",
+      "messages": 12
+    },
+    {
+      "username": "JJMccarthy4Ever",
+      "messages": 11
+    },
+    {
+      "username": "kingofthedeadlevel999",
+      "messages": 11
+    },
+    {
+      "username": "Dipshitasaurus_Rex",
+      "messages": 10
+    },
+    {
+      "username": "Paleblood1965",
+      "messages": 10
     }
   ],
   "all_time_chatters": [
@@ -101,15 +101,15 @@
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 1449
+      "messages": 1459
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1263
+      "messages": 1267
     },
     {
       "username": "solomonsignet",
-      "messages": 1241
+      "messages": 1248
     },
     {
       "username": "Catsanddogshavefun",
@@ -117,7 +117,7 @@
     },
     {
       "username": "AngryManGaming_AMG",
-      "messages": 896
+      "messages": 912
     },
     {
       "username": "JAYDONDO",
@@ -125,7 +125,7 @@
     },
     {
       "username": "scaleworksRC",
-      "messages": 560
+      "messages": 574
     },
     {
       "username": "Lark_man",
@@ -133,12 +133,12 @@
     },
     {
       "username": "moonlitshadow375",
-      "messages": 509
+      "messages": 516
     }
   ],
   "all_time": {
-    "validated_streams": 115,
-    "total_messages": 19975,
-    "unique_chatters": 415
+    "validated_streams": 116,
+    "total_messages": 20178,
+    "unique_chatters": 419
   }
 }
