@@ -186,11 +186,13 @@ def main() -> None:
                 })
 
             # Lifetime attendance: every distinct validated stream attended.
-            attendance_leaders.append({
-                "viewer_id": viewer_id,
-                "username": username,
-                "streams": len(attended),
-            })
+            # Keep creator/service accounts off the public attendance board.
+            if username.strip().lower() not in {"swerve256", "swervebot"}:
+                attendance_leaders.append({
+                    "viewer_id": viewer_id,
+                    "username": username,
+                    "streams": len(attended),
+                })
 
         streaks.sort(key=lambda item: (-item["streak"], item["username"].lower()))
         attendance_leaders.sort(
