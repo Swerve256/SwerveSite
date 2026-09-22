@@ -1,4 +1,4 @@
-"""Generate public SwerveSite stats from the local stream_stats MySQL database.
+r"""Generate public SwerveSite stats from the local stream_stats MySQL database.
 
 No credentials are stored in this repository. The script loads database settings
 from environment variables and, when present, from a local .env file.
@@ -144,9 +144,8 @@ def main() -> None:
         )
         all_time = cur.fetchone()
 
-        # Fetch one attendance row per viewer per validated stream. Python then
-        # walks the validated stream sequence newest -> oldest and stops at the
-        # first miss, matching the live !streak rule.
+        # Fetch one attendance row per viewer per validated stream. The same
+        # source powers both current streaks and lifetime attendance totals.
         cur.execute(
             """
             SELECT DISTINCT cm.viewer_id, cm.stream_id, cm.username
@@ -167,7 +166,12 @@ def main() -> None:
                 names[viewer_id] = row["username"]
 
         streaks = []
+        attendance_leaders = []
+
         for viewer_id, attended in attended_by_viewer.items():
+            username = names.get(viewer_id, f"Viewer {viewer_id}")
+
+            # Current streak: walk newest validated streams until first miss.
             streak = 0
             for stream_id in validated_ids:
                 if stream_id in attended:
@@ -177,11 +181,21 @@ def main() -> None:
             if streak > 0:
                 streaks.append({
                     "viewer_id": viewer_id,
-                    "username": names.get(viewer_id, f"Viewer {viewer_id}"),
+                    "username": username,
                     "streak": streak,
                 })
 
+            # Lifetime attendance: every distinct validated stream attended.
+            attendance_leaders.append({
+                "viewer_id": viewer_id,
+                "username": username,
+                "streams": len(attended),
+            })
+
         streaks.sort(key=lambda item: (-item["streak"], item["username"].lower()))
+        attendance_leaders.sort(
+            key=lambda item: (-item["streams"], item["username"].lower())
+        )
 
         payload = {
             "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
@@ -198,6 +212,10 @@ def main() -> None:
             "streak_leaders": [
                 {"username": row["username"], "streak": row["streak"]}
                 for row in streaks[:10]
+            ],
+            "attendance_leaders": [
+                {"username": row["username"], "streams": row["streams"]}
+                for row in attendance_leaders[:10]
             ],
             "top_chatters": [
                 {"username": row["username"], "messages": int(row["message_count"])}
@@ -220,6 +238,7 @@ def main() -> None:
         print(f"Wrote {OUTPUT}")
         print(f"Latest validated stream: {latest_id}")
         print(f"Current streak leaders: {len(payload['streak_leaders'])}")
+        print(f"All-time attendance leaders: {len(payload['attendance_leaders'])}")
 
     finally:
         cur.close()
