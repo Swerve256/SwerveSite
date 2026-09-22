@@ -35,6 +35,7 @@ async function loadRecap() {
     recapSetText('latestChatters', latest.unique_chatters);
     recapSetText('recapDuration', latest.duration || '—');
     recapSetText('validatedStreams', allTime.validated_streams);
+    recapSetText('totalStreams', allTime.total_streams);
 
     const board = document.getElementById('streakLeaderboard');
     if (board) {
