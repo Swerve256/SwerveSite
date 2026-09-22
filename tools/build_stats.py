@@ -85,6 +85,11 @@ def main() -> None:
         latest_id = latest["stream_id"]
         validated_ids = [row["stream_id"] for row in streams]
 
+        # Total stream history is intentionally independent of streak validation.
+        cur.execute("SELECT COUNT(*) AS total_streams FROM streams")
+        total_stream_row = cur.fetchone()
+        total_streams = int(total_stream_row["total_streams"] or 0)
+
         cur.execute(
             """
             SELECT COUNT(*) AS messages,
@@ -204,6 +209,7 @@ def main() -> None:
             ],
             "all_time": {
                 "validated_streams": len(streams),
+                "total_streams": total_streams,
                 "total_messages": int(all_time["total_messages"] or 0),
                 "unique_chatters": int(all_time["unique_chatters"] or 0),
             },
