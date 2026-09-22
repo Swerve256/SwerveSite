@@ -47,6 +47,10 @@
   margin-top: 22px;
 }
 
+.stats-dashboard-single {
+  grid-template-columns: 1fr;
+}
+
 .stats-dashboard-grid .table-card {
   margin-top: 0;
   min-height: 100%;
