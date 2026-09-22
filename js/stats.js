@@ -60,6 +60,7 @@ async function loadStats() {
     const latest = data.latest_stream || {};
     const allTime = data.all_time || {};
     const streaks = data.streak_leaders || [];
+    const attendance = data.attendance_leaders || [];
 
     setText('latestMessages', latest.messages);
     setText('latestChatters', latest.unique_chatters);
@@ -76,6 +77,13 @@ async function loadStats() {
       streaks,
       item => `${item.streak} streams`,
       'Streak leaders will appear after the stats publisher is connected.'
+    );
+
+    renderLeaderboard(
+      'attendanceLeaderboard',
+      attendance,
+      item => `${item.streams} streams`,
+      'Attendance leaders will appear after the next stats publish.'
     );
 
     const recap = document.getElementById('latestRecap');
