@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T20:58:06-05:00",
+  "generated_at": "2026-09-22T11:34:03-05:00",
   "latest_stream": {
     "stream_id": 120,
     "date": "2026-09-21",
@@ -50,6 +50,48 @@
     {
       "username": "akshaynd95",
       "streak": 1
+    }
+  ],
+  "attendance_leaders": [
+    {
+      "username": "AngryManGaming_AMG",
+      "streams": 100
+    },
+    {
+      "username": "Swerve256",
+      "streams": 91
+    },
+    {
+      "username": "solomonsignet",
+      "streams": 68
+    },
+    {
+      "username": "Lark_man",
+      "streams": 67
+    },
+    {
+      "username": "LordBlazeWolf5285",
+      "streams": 59
+    },
+    {
+      "username": "vinitovincenzo",
+      "streams": 59
+    },
+    {
+      "username": "Dipshitasaurus_Rex",
+      "streams": 58
+    },
+    {
+      "username": "Catsanddogshavefun",
+      "streams": 53
+    },
+    {
+      "username": "lashonnakennybrew4847",
+      "streams": 50
+    },
+    {
+      "username": "AliKhan-AK9",
+      "streams": 48
     }
   ],
   "top_chatters": [
