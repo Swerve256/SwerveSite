@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Swerve256 music hub — original tracks, stream intros, community songs and featured releases.">
+  <title>Swerve256 | Music</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swerve.css">
+  <link rel="stylesheet" href="css/brand-v2.css">
+  <link rel="stylesheet" href="css/music.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Swerve256 home">
+      <img src="assets/swerve-logo.webp" alt="Swerve256 logo">
+      <span>SWERVE<span>256</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">MENU</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="stats.html">Stats</a>
+      <a href="streams.html">Streams</a>
+      <a href="respawn.html">Respawn Room</a>
+      <a class="active" href="music.html">Music</a>
+      <a href="community.html">Community</a>
+      <a href="about.html">About</a>
+    </nav>
+    <a class="button button-small desktop-cta" href="https://www.youtube.com/@Swerve256" target="_blank" rel="noopener">Watch on YouTube</a>
+  </header>
+
+  <main>
+    <section class="page-hero music-hero">
+      <div class="container">
+        <p class="eyebrow">SWERVE256 MUSIC</p>
+        <h1>THE SOUNDTRACK<br>TO THE <span>STREAM.</span></h1>
+        <p>Original tracks, stream intros, community songs and the music built around the Swerve256 universe.</p>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">FEATURED MUSIC</p>
+            <h2>Built for the stream.</h2>
+          </div>
+          <p>The page is ready for hosted audio, Suno links and YouTube videos. Add a track once and the player card handles the rest.</p>
+        </div>
+
+        <div id="musicGrid" class="music-grid" aria-live="polite">
+          <article class="music-empty">
+            <p class="eyebrow">LOADING</p>
+            <h3>Getting the tracks ready...</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container music-info-grid">
+        <article class="music-info-card">
+          <span class="card-kicker">HOSTED AUDIO</span>
+          <h3>Play songs right here.</h3>
+          <p>MP3 files can use a native player so visitors can listen without leaving SwerveSite.</p>
+        </article>
+        <article class="music-info-card">
+          <span class="card-kicker">SUNO</span>
+          <h3>Keep the original release linked.</h3>
+          <p>Each track can include a direct Suno button or a playlist link alongside the local player.</p>
+        </article>
+        <article class="music-info-card">
+          <span class="card-kicker">YOUTUBE</span>
+          <h3>Video when it deserves video.</h3>
+          <p>Tracks with a music video or stream montage can link straight to YouTube, with embeds available later.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><strong>SWERVE<span>256</span></strong><p>Hard games. Good people. Let it ride.</p></div>
+      <div class="footer-links"><a href="stats.html">Stats</a><a href="streams.html">Streams</a><a href="respawn.html">Respawn Room</a><a href="music.html">Music</a><a href="community.html">Community</a><a href="about.html">About</a></div>
+      <div class="footer-copy">© <span id="year"></span> Swerve256</div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script src="js/music.js"></script>
+</body>
+</html>
