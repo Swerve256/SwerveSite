@@ -1,0 +1,44 @@
+{
+  "tracks": [
+    {
+      "title": "Let It Ride",
+      "artist": "Swerve256",
+      "category": "STREAM INTRO",
+      "description": "A Swerve256 starting-soon track built around the Let It Ride identity.",
+      "audio": "",
+      "cover": "",
+      "suno": "",
+      "youtube": ""
+    },
+    {
+      "title": "RIGHT HERE",
+      "artist": "Swerve256",
+      "category": "STREAM MUSIC",
+      "description": "A community-driven Swerve256 track built for the live stream atmosphere.",
+      "audio": "",
+      "cover": "",
+      "suno": "",
+      "youtube": ""
+    },
+    {
+      "title": "Drop a Bomb",
+      "artist": "Suber Gaming",
+      "category": "COMMUNITY TRACK",
+      "description": "A bounce-heavy stream track created for Suber Gaming.",
+      "audio": "",
+      "cover": "",
+      "suno": "",
+      "youtube": ""
+    },
+    {
+      "title": "Sig-nit Gold",
+      "artist": "Solomon Signet",
+      "category": "COMMUNITY TRACK",
+      "description": "A signature community track created for Solomon Signet.",
+      "audio": "",
+      "cover": "",
+      "suno": "",
+      "youtube": ""
+    }
+  ]
+}
