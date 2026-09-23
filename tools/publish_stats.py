@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -26,9 +27,38 @@ BUILD_SCRIPT = ROOT / "tools" / "build_stats.py"
 EXPECTED_BRANCH = os.environ.get("SWERVE_SITE_BRANCH", "main")
 
 
+def resolve_git() -> str:
+    """Resolve Git even when launched from apps with a reduced Windows PATH."""
+    found = shutil.which("git")
+    if found:
+        return found
+
+    candidates = [
+        Path(os.environ.get("ProgramFiles", r"C:\Program Files")) / "Git" / "cmd" / "git.exe",
+        Path(os.environ.get("ProgramFiles", r"C:\Program Files")) / "Git" / "bin" / "git.exe",
+        Path(os.environ.get("ProgramFiles(x86)", r"C:\Program Files (x86)")) / "Git" / "cmd" / "git.exe",
+        Path(os.environ.get("LOCALAPPDATA", "")) / "Programs" / "Git" / "cmd" / "git.exe",
+    ]
+
+    for candidate in candidates:
+        if candidate.is_file():
+            return str(candidate)
+
+    raise FileNotFoundError(
+        "Git executable not found. Checked PATH and standard Windows Git locations."
+    )
+
+
+GIT = resolve_git()
+
+
 def run(*args: str, capture: bool = False) -> subprocess.CompletedProcess[str]:
+    command = list(args)
+    if command and command[0] == "git":
+        command[0] = GIT
+
     return subprocess.run(
-        args,
+        command,
         cwd=ROOT,
         check=True,
         text=True,
@@ -78,6 +108,8 @@ def stats_changed() -> bool:
 
 
 def main() -> int:
+    print(f"Using Git: {GIT}")
+
     branch = current_branch()
     if branch != EXPECTED_BRANCH:
         raise RuntimeError(
