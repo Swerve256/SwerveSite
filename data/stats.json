@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-09-22T11:42:22-05:00",
+  "generated_at": "2026-09-22T20:49:04-05:00",
   "latest_stream": {
-    "stream_id": 120,
-    "date": "2026-09-21",
-    "title": "TONIGHT WE BREAK THROUGH VALHALLA\u2026 \ud83d\udc80 | God of War Ragnar\u00f6k: Valhalla (Ep. 3)",
+    "stream_id": 121,
+    "date": "2026-09-22",
+    "title": "VALHALLA JUST GOT A LOT HARDER\u2026 \ud83d\udc80 | God of War Ragnar\u00f6k: Valhalla (Ep. 4)",
     "game": "",
-    "duration": "2h 47m",
-    "messages": 112,
-    "unique_chatters": 15,
-    "top_chatter": "kingofthedeadlevel999"
+    "duration": "3h 08m",
+    "messages": 170,
+    "unique_chatters": 18,
+    "top_chatter": "Dipshitasaurus_Rex"
   },
   "streak_leaders": [
     {
       "username": "lashonnakennybrew4847",
-      "streak": 37
+      "streak": 38
     },
     {
       "username": "AngryManGaming_AMG",
-      "streak": 8
+      "streak": 9
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streak": 6
-    },
-    {
-      "username": "SirX704",
-      "streak": 6
+      "streak": 7
     },
     {
       "username": "donovonbailey9740",
-      "streak": 5
+      "streak": 6
     },
     {
       "username": "jjp8806able",
-      "streak": 2
+      "streak": 3
     },
     {
       "username": "kingofthedeadlevel999",
-      "streak": 2
+      "streak": 3
     },
     {
       "username": "StonebornHQ",
-      "streak": 2
+      "streak": 3
     },
     {
       "username": "vinitovincenzo",
-      "streak": 2
+      "streak": 3
     },
     {
       "username": "akshaynd95",
-      "streak": 1
+      "streak": 2
+    },
+    {
+      "username": "nvt_professor",
+      "streak": 2
     }
   ],
   "attendance_leaders": [
     {
       "username": "AngryManGaming_AMG",
-      "streams": 100
+      "streams": 101
     },
     {
       "username": "solomonsignet",
@@ -66,16 +66,16 @@
       "streams": 67
     },
     {
-      "username": "LordBlazeWolf5285",
-      "streams": 59
-    },
-    {
       "username": "vinitovincenzo",
-      "streams": 59
+      "streams": 60
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 58
+      "streams": 59
+    },
+    {
+      "username": "LordBlazeWolf5285",
+      "streams": 59
     },
     {
       "username": "Catsanddogshavefun",
@@ -83,11 +83,11 @@
     },
     {
       "username": "lashonnakennybrew4847",
-      "streams": 50
+      "streams": 51
     },
     {
       "username": "AliKhan-AK9",
-      "streams": 48
+      "streams": 49
     },
     {
       "username": "EeveeMW2",
@@ -96,50 +96,50 @@
   ],
   "top_chatters": [
     {
-      "username": "kingofthedeadlevel999",
-      "messages": 18
+      "username": "Dipshitasaurus_Rex",
+      "messages": 47
+    },
+    {
+      "username": "donovonbailey9740",
+      "messages": 37
     },
     {
       "username": "jjp8806able",
-      "messages": 15
-    },
-    {
-      "username": "AngryManGaming_AMG",
-      "messages": 12
+      "messages": 19
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 12
+      "messages": 16
+    },
+    {
+      "username": "AngryManGaming_AMG",
+      "messages": 13
+    },
+    {
+      "username": "AliKhan-AK9",
+      "messages": 9
+    },
+    {
+      "username": "kingofthedeadlevel999",
+      "messages": 6
     },
     {
       "username": "akshaynd95",
-      "messages": 11
+      "messages": 3
     },
     {
-      "username": "HOUSEOFXENTERTAINMENTINC",
-      "messages": 10
+      "username": "AlaskanSupra",
+      "messages": 3
     },
     {
-      "username": "Dipshitasaurus_Rex",
-      "messages": 7
-    },
-    {
-      "username": "nvt_professor",
-      "messages": 6
-    },
-    {
-      "username": "StonebornHQ",
-      "messages": 6
-    },
-    {
-      "username": "DaquanJohnson-k5b5o",
+      "username": "vinitovincenzo",
       "messages": 3
     }
   ],
   "all_time_chatters": [
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 1466
+      "messages": 1513
     },
     {
       "username": "LordBlazeWolf5285",
@@ -147,7 +147,7 @@
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1279
+      "messages": 1295
     },
     {
       "username": "solomonsignet",
@@ -159,7 +159,7 @@
     },
     {
       "username": "AngryManGaming_AMG",
-      "messages": 924
+      "messages": 937
     },
     {
       "username": "JAYDONDO",
@@ -175,13 +175,13 @@
     },
     {
       "username": "moonlitshadow375",
-      "messages": 516
+      "messages": 518
     }
   ],
   "all_time": {
-    "validated_streams": 117,
-    "total_streams": 120,
-    "total_messages": 20290,
-    "unique_chatters": 420
+    "validated_streams": 118,
+    "total_streams": 121,
+    "total_messages": 20460,
+    "unique_chatters": 421
   }
 }
