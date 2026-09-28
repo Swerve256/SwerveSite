@@ -104,11 +104,15 @@ def main() -> None:
 
         cur.execute(
             """
-            SELECT viewer_id, MAX(username) AS username, COUNT(*) AS message_count
-            FROM chat_messages
-            WHERE stream_id = %s
-              AND LOWER(COALESCE(username, '')) <> 'swervebot'
-            GROUP BY viewer_id
+            SELECT
+                cm.viewer_id,
+                COALESCE(NULLIF(v.alias, ''), v.username, MAX(cm.username)) AS username,
+                COUNT(*) AS message_count
+            FROM chat_messages cm
+            LEFT JOIN viewers v ON v.viewer_id = cm.viewer_id
+            WHERE cm.stream_id = %s
+              AND LOWER(COALESCE(v.username, cm.username, '')) NOT IN ('swervebot', 'swerve256')
+            GROUP BY cm.viewer_id, v.alias, v.username
             ORDER BY message_count DESC, username ASC
             LIMIT 10
             """,
@@ -118,14 +122,16 @@ def main() -> None:
 
         cur.execute(
             """
-            SELECT cm.viewer_id,
-                   MAX(cm.username) AS username,
-                   COUNT(*) AS message_count
+            SELECT
+                cm.viewer_id,
+                COALESCE(NULLIF(v.alias, ''), v.username, MAX(cm.username)) AS username,
+                COUNT(*) AS message_count
             FROM chat_messages cm
             JOIN streams s ON s.stream_id = cm.stream_id
+            LEFT JOIN viewers v ON v.viewer_id = cm.viewer_id
             WHERE s.is_validated = 1
-              AND LOWER(COALESCE(cm.username, '')) <> 'swervebot'
-            GROUP BY cm.viewer_id
+              AND LOWER(COALESCE(v.username, cm.username, '')) NOT IN ('swervebot', 'swerve256')
+            GROUP BY cm.viewer_id, v.alias, v.username
             ORDER BY message_count DESC, username ASC
             LIMIT 10
             """
@@ -138,8 +144,9 @@ def main() -> None:
                    COUNT(DISTINCT cm.viewer_id) AS unique_chatters
             FROM chat_messages cm
             JOIN streams s ON s.stream_id = cm.stream_id
+            LEFT JOIN viewers v ON v.viewer_id = cm.viewer_id
             WHERE s.is_validated = 1
-              AND LOWER(COALESCE(cm.username, '')) <> 'swervebot'
+              AND LOWER(COALESCE(v.username, cm.username, '')) NOT IN ('swervebot', 'swerve256')
             """
         )
         all_time = cur.fetchone()
@@ -148,11 +155,16 @@ def main() -> None:
         # source powers both current streaks and lifetime attendance totals.
         cur.execute(
             """
-            SELECT DISTINCT cm.viewer_id, cm.stream_id, cm.username
+            SELECT DISTINCT
+                cm.viewer_id,
+                cm.stream_id,
+                COALESCE(NULLIF(v.alias, ''), v.username, cm.username) AS username,
+                COALESCE(v.username, cm.username, '') AS base_username
             FROM chat_messages cm
             JOIN streams s ON s.stream_id = cm.stream_id
+            LEFT JOIN viewers v ON v.viewer_id = cm.viewer_id
             WHERE s.is_validated = 1
-              AND LOWER(COALESCE(cm.username, '')) <> 'swervebot'
+              AND LOWER(COALESCE(v.username, cm.username, '')) NOT IN ('swervebot', 'swerve256')
             """
         )
         attendance_rows = cur.fetchall()
@@ -186,18 +198,31 @@ def main() -> None:
                 })
 
             # Lifetime attendance: every distinct validated stream attended.
-            # Keep creator/service accounts off the public attendance board.
-            if username.strip().lower() not in {"swerve256", "swervebot"}:
-                attendance_leaders.append({
-                    "viewer_id": viewer_id,
-                    "username": username,
-                    "streams": len(attended),
-                })
+            attendance_leaders.append({
+                "viewer_id": viewer_id,
+                "username": username,
+                "streams": len(attended),
+            })
 
         streaks.sort(key=lambda item: (-item["streak"], item["username"].lower()))
         attendance_leaders.sort(
             key=lambda item: (-item["streams"], item["username"].lower())
         )
+
+        cur.execute(
+            """
+            SELECT
+                viewer_id,
+                COALESCE(NULLIF(alias, ''), username) AS username,
+                watch_minutes
+            FROM viewers
+            WHERE watch_minutes > 0
+              AND LOWER(COALESCE(username, '')) NOT IN ('swerve256', 'swervebot')
+            ORDER BY watch_minutes DESC, username ASC
+            LIMIT 10
+            """
+        )
+        watchtime_leaders = cur.fetchall()
 
         payload = {
             "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
@@ -218,6 +243,13 @@ def main() -> None:
             "attendance_leaders": [
                 {"username": row["username"], "streams": row["streams"]}
                 for row in attendance_leaders[:10]
+            ],
+            "watchtime_leaders": [
+                {
+                    "username": row["username"],
+                    "watch_minutes": int(row["watch_minutes"] or 0),
+                }
+                for row in watchtime_leaders
             ],
             "top_chatters": [
                 {"username": row["username"], "messages": int(row["message_count"])}
@@ -241,6 +273,7 @@ def main() -> None:
         print(f"Latest validated stream: {latest_id}")
         print(f"Current streak leaders: {len(payload['streak_leaders'])}")
         print(f"All-time attendance leaders: {len(payload['attendance_leaders'])}")
+        print(f"Watch time leaders: {len(payload['watchtime_leaders'])}")
 
     finally:
         cur.close()
