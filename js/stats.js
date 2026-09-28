@@ -10,6 +10,14 @@ function formatPublishedTime(value) {
   return `Last published ${parsed.toLocaleString()}`;
 }
 
+function formatWatchTime(minutes) {
+  const total = Math.max(0, Number(minutes || 0));
+  const hours = Math.floor(total / 60);
+  const mins = total % 60;
+  if (hours > 0) return `${hours.toLocaleString()}h ${String(mins).padStart(2, '0')}m`;
+  return `${mins}m`;
+}
+
 function createLeaderRow(rank, name, value) {
   const row = document.createElement('div');
   row.className = 'leader-row';
@@ -61,6 +69,7 @@ async function loadStats() {
     const allTime = data.all_time || {};
     const streaks = data.streak_leaders || [];
     const attendance = data.attendance_leaders || [];
+    const watchtime = data.watchtime_leaders || [];
 
     setText('latestMessages', latest.messages);
     setText('latestChatters', latest.unique_chatters);
@@ -84,6 +93,13 @@ async function loadStats() {
       attendance,
       item => `${item.streams} streams`,
       'Attendance leaders will appear after the next stats publish.'
+    );
+
+    renderLeaderboard(
+      'watchtimeLeaderboard',
+      watchtime,
+      item => formatWatchTime(item.watch_minutes),
+      'Watch time leaders will appear after the next stats publish.'
     );
 
     const recap = document.getElementById('latestRecap');
