@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Swerve256 stream chat commands, sound effects, community tools and moderator controls.">
+  <title>Commands | Swerve256</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swerve.css">
+  <link rel="stylesheet" href="css/brand-v2.css">
+  <link rel="stylesheet" href="css/commands.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><img src="assets/swerve-logo.webp" alt="Swerve256 logo"><span>SWERVE<span>256</span></span></a>
+  <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">MENU</button>
+  <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="stats.html">Stats</a><a href="streams.html">Streams</a><a class="active" href="commands.html">Commands</a><a href="respawn.html">Respawn Room</a><a href="community.html">Community</a><a href="about.html">About</a></nav>
+  <a class="button button-small desktop-cta" href="https://www.youtube.com/@Swerve256" target="_blank" rel="noopener">Watch on YouTube</a>
+</header>
+
+<main>
+  <section class="page-hero"><div class="container"><p class="eyebrow">CHAT COMMANDS</p><h1>MAKE THE STREAM<br>DO SOMETHING.</h1><p>Sound effects, community tools, SwerveBot and stream controls. Search the full command list below.</p></div></section>
+
+  <section class="section"><div class="container">
+    <div class="commands-toolbar">
+      <div class="commands-controls">
+        <input id="commandSearch" type="search" placeholder="Search commands..." aria-label="Search commands">
+        <select id="commandFilter" aria-label="Filter commands by category"><option value="">All categories</option></select>
+      </div>
+      <span class="commands-count" id="commandCount">Loading commands...</span>
+    </div>
+
+    <div class="commands-list" id="commandsList"><p class="commands-empty">Loading commands...</p></div>
+    <p class="commands-note"><strong>Access:</strong> Everyone commands are open to chat. Swerve/Mods and Mods commands are restricted stream controls. Command availability can change as the stream setup evolves.</p>
+  </div></section>
+</main>
+
+<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><strong>SWERVE<span>256</span></strong><p>Hard games. Good people. Let it ride.</p></div><div class="footer-links"><a href="stats.html">Stats</a><a href="streams.html">Streams</a><a href="commands.html">Commands</a><a href="respawn.html">Respawn Room</a><a href="community.html">Community</a><a href="about.html">About</a></div><div class="footer-copy">© <span id="year"></span> Swerve256</div></div></footer>
+<script src="js/site.js"></script>
+<script src="js/commands.js"></script>
+</body>
+</html>
