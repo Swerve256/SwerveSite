@@ -1,18 +1,34 @@
 {
-  "generated_at": "2026-09-28T23:01:04-05:00",
+  "generated_at": "2026-09-28T23:09:29-05:00",
   "latest_stream": {
     "stream_id": 129,
     "date": "2026-09-28",
     "title": "BACK TO MIDGARD\u2026 THE BLACK BREATH AWAITS \u2694\ufe0f | God of War (GMGOW Ep. 5)",
     "game": "",
     "duration": "4h 04m",
-    "messages": 79,
-    "unique_chatters": 12,
+    "messages": 99,
+    "unique_chatters": 32,
     "top_chatter": "moonlitshadow375"
   },
   "streak_leaders": [
     {
+      "username": "lashonnakennybrew4847",
+      "streak": 44
+    },
+    {
+      "username": "Dipshitasaurus_Rex",
+      "streak": 13
+    },
+    {
+      "username": "akshaynd95",
+      "streak": 4
+    },
+    {
       "username": "JAYDONDO",
+      "streak": 4
+    },
+    {
+      "username": "scaleworksRC",
       "streak": 4
     },
     {
@@ -24,32 +40,16 @@
       "streak": 3
     },
     {
-      "username": "vinitovincenzo",
+      "username": "nvt_professor",
+      "streak": 3
+    },
+    {
+      "username": "webbed-living70",
+      "streak": 3
+    },
+    {
+      "username": "Catsanddogshavefun",
       "streak": 2
-    },
-    {
-      "username": "aceofdragons420",
-      "streak": 1
-    },
-    {
-      "username": "ALPHA_1133",
-      "streak": 1
-    },
-    {
-      "username": "keshav671able",
-      "streak": 1
-    },
-    {
-      "username": "kingofthedeadlevel999",
-      "streak": 1
-    },
-    {
-      "username": "moonlitshadow375",
-      "streak": 1
-    },
-    {
-      "username": "ParadiseandMartinezCrew",
-      "streak": 1
     }
   ],
   "attendance_leaders": [
@@ -67,23 +67,23 @@
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 64
+      "streams": 65
+    },
+    {
+      "username": "LordBlazeWolf5285",
+      "streams": 62
     },
     {
       "username": "vinitovincenzo",
       "streams": 62
     },
     {
-      "username": "LordBlazeWolf5285",
-      "streams": 61
-    },
-    {
       "username": "lashonnakennybrew4847",
-      "streams": 56
+      "streams": 57
     },
     {
       "username": "Catsanddogshavefun",
-      "streams": 54
+      "streams": 55
     },
     {
       "username": "AliKhan-AK9",
@@ -91,7 +91,7 @@
     },
     {
       "username": "scaleworksRC",
-      "streams": 40
+      "streams": 41
     }
   ],
   "watchtime_leaders": [
@@ -166,30 +166,30 @@
       "messages": 3
     },
     {
+      "username": "akshaynd95",
+      "messages": 1
+    },
+    {
       "username": "ALPHA_1133",
       "messages": 1
     },
     {
-      "username": "kingofthedeadlevel999",
-      "messages": 1
-    },
-    {
-      "username": "ParadiseandMartinezCrew",
+      "username": "Catsanddogshavefun",
       "messages": 1
     }
   ],
   "all_time_chatters": [
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 1654
+      "messages": 1655
     },
     {
       "username": "LordBlazeWolf5285",
-      "messages": 1539
+      "messages": 1540
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1361
+      "messages": 1362
     },
     {
       "username": "solomonsignet",
@@ -197,7 +197,7 @@
     },
     {
       "username": "Catsanddogshavefun",
-      "messages": 1224
+      "messages": 1225
     },
     {
       "username": "AMGisSwervesBitch",
@@ -209,7 +209,7 @@
     },
     {
       "username": "scaleworksRC",
-      "messages": 623
+      "messages": 624
     },
     {
       "username": "moonlitshadow375",
@@ -223,7 +223,7 @@
   "all_time": {
     "validated_streams": 124,
     "total_streams": 129,
-    "total_messages": 21138,
+    "total_messages": 21158,
     "unique_chatters": 445
   }
 }
