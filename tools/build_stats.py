@@ -23,14 +23,12 @@ import os
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 import mysql.connector
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "stats.json"
-CENTRAL_TZ = ZoneInfo("America/Chicago")
 
 DEFAULT_ENV_FILE = Path(r"C:\stream-backend\.env")
 ENV_FILE = Path(os.environ.get("SWERVE_ENV_FILE", str(DEFAULT_ENV_FILE)))
@@ -66,13 +64,14 @@ def fmt_duration(start_time, end_time) -> str:
 
 
 def central_stream_date(start_time):
+    """Convert the DB's naive UTC timestamp to the Central-time stream PC date."""
     if start_time is None:
         return None
     if start_time.tzinfo is None:
         start_time = start_time.replace(tzinfo=timezone.utc)
     else:
         start_time = start_time.astimezone(timezone.utc)
-    return start_time.astimezone(CENTRAL_TZ).date()
+    return start_time.astimezone().date()
 
 
 def calculate_daily_streak(streams, attended_stream_ids) -> int:
@@ -84,7 +83,7 @@ def calculate_daily_streak(streams, attended_stream_ids) -> int:
             grouped[stream_date].add(int(stream["stream_id"]))
 
     attended = {int(stream_id) for stream_id in attended_stream_ids}
-    today = datetime.now(CENTRAL_TZ).date()
+    today = datetime.now().astimezone().date()
     streak = 0
 
     for stream_date in sorted(grouped.keys(), reverse=True):
