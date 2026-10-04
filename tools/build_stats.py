@@ -21,14 +21,16 @@ from __future__ import annotations
 import json
 import os
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import mysql.connector
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "stats.json"
+CENTRAL_TZ = ZoneInfo("America/Chicago")
 
 DEFAULT_ENV_FILE = Path(r"C:\stream-backend\.env")
 ENV_FILE = Path(os.environ.get("SWERVE_ENV_FILE", str(DEFAULT_ENV_FILE)))
@@ -63,6 +65,45 @@ def fmt_duration(start_time, end_time) -> str:
     return f"{minutes}m"
 
 
+def central_stream_date(start_time):
+    if start_time is None:
+        return None
+    if start_time.tzinfo is None:
+        start_time = start_time.replace(tzinfo=timezone.utc)
+    else:
+        start_time = start_time.astimezone(timezone.utc)
+    return start_time.astimezone(CENTRAL_TZ).date()
+
+
+def calculate_daily_streak(streams, attended_stream_ids) -> int:
+    """Count consecutive attended Central streaming days, not individual streams."""
+    grouped: dict[object, set[int]] = defaultdict(set)
+    for stream in streams:
+        stream_date = central_stream_date(stream.get("start_time"))
+        if stream_date is not None:
+            grouped[stream_date].add(int(stream["stream_id"]))
+
+    attended = {int(stream_id) for stream_id in attended_stream_ids}
+    today = datetime.now(CENTRAL_TZ).date()
+    streak = 0
+
+    for stream_date in sorted(grouped.keys(), reverse=True):
+        attended_day = any(stream_id in attended for stream_id in grouped[stream_date])
+
+        if attended_day:
+            streak += 1
+            continue
+
+        # Do not break a streak during the current Central day. Shaun may stream
+        # again later, and attending either stream should preserve the day.
+        if stream_date == today:
+            continue
+
+        break
+
+    return streak
+
+
 def main() -> None:
     conn = mysql.connector.connect(**db_config())
     cur = conn.cursor(dictionary=True)
@@ -83,7 +124,6 @@ def main() -> None:
 
         latest = streams[0]
         latest_id = latest["stream_id"]
-        validated_ids = [row["stream_id"] for row in streams]
 
         # Total stream history is intentionally independent of streak validation.
         cur.execute("SELECT COUNT(*) AS total_streams FROM streams")
@@ -151,8 +191,9 @@ def main() -> None:
         )
         all_time = cur.fetchone()
 
-        # Fetch one attendance row per viewer per validated stream. The same
-        # source powers both current streaks and lifetime attendance totals.
+        # Fetch one attendance row per viewer per validated stream. Lifetime
+        # attendance still counts streams; current streaks group those streams
+        # into Central calendar days.
         cur.execute(
             """
             SELECT DISTINCT
@@ -183,13 +224,7 @@ def main() -> None:
         for viewer_id, attended in attended_by_viewer.items():
             username = names.get(viewer_id, f"Viewer {viewer_id}")
 
-            # Current streak: walk newest validated streams until first miss.
-            streak = 0
-            for stream_id in validated_ids:
-                if stream_id in attended:
-                    streak += 1
-                else:
-                    break
+            streak = calculate_daily_streak(streams, attended)
             if streak > 0:
                 streaks.append({
                     "viewer_id": viewer_id,
@@ -197,7 +232,7 @@ def main() -> None:
                     "streak": streak,
                 })
 
-            # Lifetime attendance: every distinct validated stream attended.
+            # Lifetime attendance remains every distinct validated stream attended.
             attendance_leaders.append({
                 "viewer_id": viewer_id,
                 "username": username,
@@ -228,7 +263,7 @@ def main() -> None:
             "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
             "latest_stream": {
                 "stream_id": latest_id,
-                "date": latest["start_time"].date().isoformat() if latest["start_time"] else None,
+                "date": central_stream_date(latest["start_time"]).isoformat() if latest["start_time"] else None,
                 "title": latest.get("title") or latest.get("game") or f"Stream #{latest_id}",
                 "game": latest.get("game") or "",
                 "duration": fmt_duration(latest.get("start_time"), latest.get("end_time")),
