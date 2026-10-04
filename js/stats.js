@@ -84,7 +84,7 @@ async function loadStats() {
     renderLeaderboard(
       'streakLeaderboard',
       streaks,
-      item => `${item.streak} streams`,
+      item => `${item.streak} days`,
       'Streak leaders will appear after the stats publisher is connected.'
     );
 
