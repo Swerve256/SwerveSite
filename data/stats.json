@@ -1,39 +1,31 @@
 {
-  "generated_at": "2026-10-07T21:50:13-05:00",
+  "generated_at": "2026-10-08T19:03:10-05:00",
   "latest_stream": {
-    "stream_id": 139,
-    "date": "2026-10-07",
-    "title": "WE\u2019RE CLOSER TO J\u00d6TUNHEIM THAN EVER\u2026 \ud83d\udc80 | God of War (GMGOW Ep. 13)",
+    "stream_id": 140,
+    "date": "2026-10-08",
+    "title": "THE STORY\u2019S OVER\u2026 THE REAL GRIND BEGINS \ud83d\udc80 | God of War (GMGOW Ep. 14)",
     "game": "",
-    "duration": "2h 48m",
-    "messages": 168,
-    "unique_chatters": 16,
-    "top_chatter": "lashonnakennybrew4847"
+    "duration": "1h 54m",
+    "messages": 83,
+    "unique_chatters": 22,
+    "top_chatter": "donovonbailey9740"
   },
   "streak_leaders": [
     {
       "username": "lashonnakennybrew4847",
-      "streak": 44
+      "streak": 45
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streak": 20
+      "streak": 21
     },
     {
       "username": "AMGthePedoKiller",
-      "streak": 10
+      "streak": 11
     },
     {
       "username": "webbed-living70",
-      "streak": 10
-    },
-    {
-      "username": "Catsanddogshavefun",
-      "streak": 3
-    },
-    {
-      "username": "nytowl3166",
-      "streak": 3
+      "streak": 11
     },
     {
       "username": "AliKhan-AK9",
@@ -44,22 +36,30 @@
       "streak": 2
     },
     {
-      "username": "nvt_professor",
+      "username": "SirX704",
       "streak": 2
     },
     {
       "username": "thyagarajan4577",
       "streak": 2
+    },
+    {
+      "username": "Black-Venum",
+      "streak": 1
+    },
+    {
+      "username": "Blevel_gamer",
+      "streak": 1
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 113
+      "streams": 114
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 73
+      "streams": 74
     },
     {
       "username": "solomonsignet",
@@ -71,11 +71,11 @@
     },
     {
       "username": "lashonnakennybrew4847",
-      "streams": 65
+      "streams": 66
     },
     {
       "username": "vinitovincenzo",
-      "streams": 65
+      "streams": 66
     },
     {
       "username": "LordBlazeWolf5285",
@@ -138,54 +138,54 @@
   ],
   "top_chatters": [
     {
-      "username": "lashonnakennybrew4847",
-      "messages": 54
+      "username": "donovonbailey9740",
+      "messages": 17
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 31
+      "messages": 12
     },
     {
-      "username": "AliKhan-AK9",
-      "messages": 20
+      "username": "lashonnakennybrew4847",
+      "messages": 8
     },
     {
-      "username": "JAYDONDO",
-      "messages": 11
-    },
-    {
-      "username": "webbed-living70",
-      "messages": 11
-    },
-    {
-      "username": "moonlitshadow375",
-      "messages": 9
-    },
-    {
-      "username": "Blevel_gamer",
+      "username": "EthanL04b",
       "messages": 7
     },
     {
-      "username": "AMGthePedoKiller",
+      "username": "StonebornHQ",
       "messages": 6
     },
     {
-      "username": "smokedogg-ix9kv",
+      "username": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0410\u043d\u0441\u0438\u043c\u043e\u0432-\u04461\u0437",
+      "messages": 6
+    },
+    {
+      "username": "CallmeBoss-mb9wz",
       "messages": 4
     },
     {
-      "username": "scaleworksRC",
+      "username": "hitbongsbill3840",
+      "messages": 4
+    },
+    {
+      "username": "AMGthePedoKiller",
       "messages": 3
+    },
+    {
+      "username": "queal1995",
+      "messages": 2
     }
   ],
   "all_time_chatters": [
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 1837
+      "messages": 1849
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1577
+      "messages": 1585
     },
     {
       "username": "LordBlazeWolf5285",
@@ -201,7 +201,7 @@
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 1057
+      "messages": 1060
     },
     {
       "username": "JAYDONDO",
@@ -221,9 +221,9 @@
     }
   ],
   "all_time": {
-    "validated_streams": 132,
-    "total_streams": 139,
-    "total_messages": 22803,
-    "unique_chatters": 477
+    "validated_streams": 133,
+    "total_streams": 140,
+    "total_messages": 22885,
+    "unique_chatters": 480
   }
 }
