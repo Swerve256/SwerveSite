@@ -1,69 +1,69 @@
 {
-  "generated_at": "2026-10-16T22:00:44-05:00",
+  "generated_at": "2026-10-18T17:43:19-05:00",
   "latest_stream": {
-    "stream_id": 149,
-    "date": "2026-10-16",
-    "title": "GERALT RETURNS\u2026 BUT CAN I STILL FIGHT? | The Witcher 3: Hearts of Stone (Death March Ep. 1)",
+    "stream_id": 150,
+    "date": "2026-10-18",
+    "title": "THE HUNT FOR CIRI BEGINS\u2026 | The Witcher 3 (Death March Ep. 2)",
     "game": "",
-    "duration": "3h 11m",
-    "messages": 146,
-    "unique_chatters": 16,
+    "duration": "2h 41m",
+    "messages": 56,
+    "unique_chatters": 9,
     "top_chatter": "Dipshitasaurus_Rex"
   },
   "streak_leaders": [
     {
       "username": "lashonnakennybrew4847",
-      "streak": 53
+      "streak": 54
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streak": 29
+      "streak": 30
     },
     {
       "username": "AMGthePedoKiller",
-      "streak": 19
+      "streak": 20
     },
     {
       "username": "AliKhan-AK9",
-      "streak": 8
+      "streak": 9
     },
     {
-      "username": "JAYDONDO",
-      "streak": 7
+      "username": "StonebornHQ",
+      "streak": 2
     },
     {
-      "username": "andrewdavido963",
-      "streak": 5
+      "username": "akshaynd95",
+      "streak": 1
     },
     {
-      "username": "donovonbailey9740",
-      "streak": 4
+      "username": "BigCookee",
+      "streak": 1
     },
     {
-      "username": "faisal_firdausi",
-      "streak": 3
+      "username": "Bringmemymoney",
+      "streak": 1
     },
     {
-      "username": "nvt_professor",
-      "streak": 3
+      "username": "Doink50",
+      "streak": 1
     },
     {
-      "username": "Shax4187",
-      "streak": 3
+      "username": "gioielloacula3772",
+      "streak": 1
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 122
+      "streams": 123
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 82
+      "streams": 83
     },
     {
       "username": "lashonnakennybrew4847",
-      "streams": 74
+      "streams": 75
     },
     {
       "username": "solomonsignet",
@@ -79,7 +79,7 @@
     },
     {
       "username": "AliKhan-AK9",
-      "streams": 64
+      "streams": 65
     },
     {
       "username": "LordBlazeWolf5285",
@@ -139,53 +139,49 @@
   "top_chatters": [
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 52
+      "messages": 18
+    },
+    {
+      "username": "J.R.Steel37",
+      "messages": 9
     },
     {
       "username": "AliKhan-AK9",
-      "messages": 38
-    },
-    {
-      "username": "StonebornHQ",
-      "messages": 11
-    },
-    {
-      "username": "Bringmemymoney",
       "messages": 8
     },
     {
-      "username": "Paleblood1965",
-      "messages": 7
+      "username": "AMGthePedoKiller",
+      "messages": 5
     },
     {
-      "username": "akshaynd95",
-      "messages": 6
+      "username": "ParzivalProtocol27",
+      "messages": 5
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 6
-    },
-    {
-      "username": "Yamama-lbm",
       "messages": 4
     },
     {
-      "username": "radio0392",
-      "messages": 3
+      "username": "LoverofTRUTH-l4s",
+      "messages": 4
     },
     {
-      "username": "void_walker2304",
+      "username": "MissCOZ-Chill",
       "messages": 2
+    },
+    {
+      "username": "BigCookee",
+      "messages": 1
     }
   ],
   "all_time_chatters": [
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 2038
+      "messages": 2056
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1720
+      "messages": 1724
     },
     {
       "username": "LordBlazeWolf5285",
@@ -205,11 +201,11 @@
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 1181
+      "messages": 1186
     },
     {
       "username": "AliKhan-AK9",
-      "messages": 755
+      "messages": 763
     },
     {
       "username": "scaleworksRC",
@@ -221,9 +217,9 @@
     }
   ],
   "all_time": {
-    "validated_streams": 141,
-    "total_streams": 149,
-    "total_messages": 24886,
-    "unique_chatters": 502
+    "validated_streams": 142,
+    "total_streams": 150,
+    "total_messages": 24942,
+    "unique_chatters": 503
   }
 }
