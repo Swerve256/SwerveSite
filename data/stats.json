@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-18T17:43:19-05:00",
+  "generated_at": "2026-10-18T20:26:01-05:00",
   "latest_stream": {
-    "stream_id": 150,
+    "stream_id": 151,
     "date": "2026-10-18",
-    "title": "THE HUNT FOR CIRI BEGINS\u2026 | The Witcher 3 (Death March Ep. 2)",
+    "title": "A FIRST-PERSON SOULSLIKE?! THIS COULD GET UGLY\u2026 | Valor Mortis (Ep. 1)",
     "game": "",
-    "duration": "2h 41m",
-    "messages": 56,
-    "unique_chatters": 9,
-    "top_chatter": "Dipshitasaurus_Rex"
+    "duration": "1h 21m",
+    "messages": 58,
+    "unique_chatters": 11,
+    "top_chatter": "Gaming-wit-Icy985"
   },
   "streak_leaders": [
     {
@@ -32,6 +32,10 @@
       "streak": 2
     },
     {
+      "username": "vinitovincenzo",
+      "streak": 2
+    },
+    {
       "username": "akshaynd95",
       "streak": 1
     },
@@ -46,10 +50,6 @@
     {
       "username": "Doink50",
       "streak": 1
-    },
-    {
-      "username": "gioielloacula3772",
-      "streak": 1
     }
   ],
   "attendance_leaders": [
@@ -63,18 +63,18 @@
     },
     {
       "username": "lashonnakennybrew4847",
-      "streams": 75
+      "streams": 76
     },
     {
       "username": "solomonsignet",
       "streams": 71
     },
     {
-      "username": "Lark_man",
-      "streams": 68
+      "username": "vinitovincenzo",
+      "streams": 69
     },
     {
-      "username": "vinitovincenzo",
+      "username": "Lark_man",
       "streams": 68
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "username": "LordBlazeWolf5285",
-      "streams": 64
+      "streams": 65
     },
     {
       "username": "Catsanddogshavefun",
@@ -91,7 +91,7 @@
     },
     {
       "username": "moonlitshadow375",
-      "streams": 48
+      "streams": 49
     }
   ],
   "watchtime_leaders": [
@@ -138,39 +138,43 @@
   ],
   "top_chatters": [
     {
-      "username": "Dipshitasaurus_Rex",
-      "messages": 18
+      "username": "Gaming-wit-Icy985",
+      "messages": 13
     },
     {
-      "username": "J.R.Steel37",
-      "messages": 9
+      "username": "LordBlazeWolf5285",
+      "messages": 10
     },
     {
-      "username": "AliKhan-AK9",
+      "username": "moonlitshadow375",
+      "messages": 10
+    },
+    {
+      "username": "Mohammad.R-R",
       "messages": 8
     },
     {
-      "username": "AMGthePedoKiller",
+      "username": "whatchagotgameplay",
       "messages": 5
     },
     {
-      "username": "ParzivalProtocol27",
-      "messages": 5
+      "username": "vinitovincenzo",
+      "messages": 3
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 4
-    },
-    {
-      "username": "LoverofTRUTH-l4s",
-      "messages": 4
-    },
-    {
-      "username": "MissCOZ-Chill",
       "messages": 2
     },
     {
-      "username": "BigCookee",
+      "username": "Shax4187",
+      "messages": 2
+    },
+    {
+      "username": "SirX704",
+      "messages": 2
+    },
+    {
+      "username": "Romario-c2p",
       "messages": 1
     }
   ],
@@ -181,11 +185,11 @@
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1724
+      "messages": 1726
     },
     {
       "username": "LordBlazeWolf5285",
-      "messages": 1611
+      "messages": 1621
     },
     {
       "username": "solomonsignet",
@@ -213,13 +217,13 @@
     },
     {
       "username": "moonlitshadow375",
-      "messages": 658
+      "messages": 668
     }
   ],
   "all_time": {
-    "validated_streams": 142,
-    "total_streams": 150,
-    "total_messages": 24942,
-    "unique_chatters": 503
+    "validated_streams": 143,
+    "total_streams": 151,
+    "total_messages": 24998,
+    "unique_chatters": 504
   }
 }
