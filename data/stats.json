@@ -1,69 +1,69 @@
 {
-  "generated_at": "2026-10-23T19:58:21-05:00",
+  "generated_at": "2026-10-24T14:03:44-05:00",
   "latest_stream": {
-    "stream_id": 155,
-    "date": "2026-10-23",
-    "title": "SOMETHING IS WRONG ON THIS OIL RIG\u2026 | Still Wakes the Deep (FULL GAME)",
+    "stream_id": 156,
+    "date": "2026-10-24",
+    "title": "SOMETHING IS WRONG ON THIS OIL RIG\u2026 | Still Wakes the Deep (2)",
     "game": "",
-    "duration": "1h 55m",
-    "messages": 38,
-    "unique_chatters": 6,
-    "top_chatter": "lashonnakennybrew4847"
+    "duration": "3h 24m",
+    "messages": 180,
+    "unique_chatters": 13,
+    "top_chatter": "Niroko-x4l"
   },
   "streak_leaders": [
     {
       "username": "lashonnakennybrew4847",
-      "streak": 58
+      "streak": 59
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streak": 34
+      "streak": 35
     },
     {
       "username": "AMGthePedoKiller",
-      "streak": 24
+      "streak": 25
     },
     {
       "username": "AliKhan-AK9",
       "streak": 13
     },
     {
-      "username": "LordBlazeWolf5285",
-      "streak": 4
-    },
-    {
-      "username": "StonebornHQ",
-      "streak": 2
-    },
-    {
-      "username": "vinitovincenzo",
-      "streak": 2
+      "username": "AdamOurtani",
+      "streak": 1
     },
     {
       "username": "Catsanddogshavefun",
       "streak": 1
     },
     {
-      "username": "EchoRivers29",
+      "username": "Gaming-wit-Icy985",
       "streak": 1
     },
     {
-      "username": "Gaming-wit-Icy985",
+      "username": "Icequeencastle2",
+      "streak": 1
+    },
+    {
+      "username": "moonlitshadow375",
+      "streak": 1
+    },
+    {
+      "username": "Niroko-x4l",
       "streak": 1
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 127
+      "streams": 128
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 87
+      "streams": 88
     },
     {
       "username": "lashonnakennybrew4847",
-      "streams": 80
+      "streams": 81
     },
     {
       "username": "solomonsignet",
@@ -91,7 +91,7 @@
     },
     {
       "username": "moonlitshadow375",
-      "streams": 51
+      "streams": 52
     }
   ],
   "watchtime_leaders": [
@@ -138,42 +138,58 @@
   ],
   "top_chatters": [
     {
+      "username": "Niroko-x4l",
+      "messages": 47
+    },
+    {
+      "username": "SharkySharkz1",
+      "messages": 47
+    },
+    {
       "username": "lashonnakennybrew4847",
-      "messages": 17
+      "messages": 32
     },
     {
-      "username": "AliKhan-AK9",
-      "messages": 8
+      "username": "moonlitshadow375",
+      "messages": 16
     },
     {
-      "username": "solomonsignet",
-      "messages": 7
+      "username": "AdamOurtani",
+      "messages": 9
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 4
+      "messages": 9
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 1
+      "messages": 7
     },
     {
-      "username": "Catsanddogshavefun",
-      "messages": 1
+      "username": "Gaming-wit-Icy985",
+      "messages": 5
+    },
+    {
+      "username": "Icequeencastle2",
+      "messages": 3
+    },
+    {
+      "username": "onebrickatatime7",
+      "messages": 2
     }
   ],
   "all_time_chatters": [
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 2102
+      "messages": 2111
+    },
+    {
+      "username": "lashonnakennybrew4847",
+      "messages": 1801
     },
     {
       "username": "LordBlazeWolf5285",
       "messages": 1801
-    },
-    {
-      "username": "lashonnakennybrew4847",
-      "messages": 1769
     },
     {
       "username": "solomonsignet",
@@ -185,7 +201,7 @@
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 1237
+      "messages": 1244
     },
     {
       "username": "Catsanddogshavefun",
@@ -196,18 +212,18 @@
       "messages": 833
     },
     {
-      "username": "scaleworksRC",
-      "messages": 704
+      "username": "moonlitshadow375",
+      "messages": 709
     },
     {
-      "username": "moonlitshadow375",
-      "messages": 693
+      "username": "scaleworksRC",
+      "messages": 704
     }
   ],
   "all_time": {
-    "validated_streams": 147,
-    "total_streams": 155,
-    "total_messages": 25540,
-    "unique_chatters": 507
+    "validated_streams": 148,
+    "total_streams": 156,
+    "total_messages": 25719,
+    "unique_chatters": 508
   }
 }
