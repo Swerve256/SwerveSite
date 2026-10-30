@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-28T21:55:26-05:00",
+  "generated_at": "2026-10-29T22:09:33-05:00",
   "latest_stream": {
-    "stream_id": 159,
-    "date": "2026-10-28",
-    "title": "KASHYYYK IS ABOUT TO TEST US\u2026 \ud83d\udc80 | Star Wars Jedi: Fallen Order (Grand Master Ep. 2)",
+    "stream_id": 160,
+    "date": "2026-10-29",
+    "title": "WHAT IS THE EMPIRE HIDING DOWN HERE? \ud83d\udc80 | Star Wars Jedi: Fallen Order (Grand Master Ep. 3)",
     "game": "",
-    "duration": "4h 39m",
-    "messages": 363,
-    "unique_chatters": 21,
-    "top_chatter": "LordBlazeWolf5285"
+    "duration": "3h 20m",
+    "messages": 237,
+    "unique_chatters": 16,
+    "top_chatter": "moonlitshadow375"
   },
   "streak_leaders": [
     {
@@ -17,10 +17,18 @@
     },
     {
       "username": "AMGthePedoKiller",
-      "streak": 28
+      "streak": 29
     },
     {
       "username": "moonlitshadow375",
+      "streak": 5
+    },
+    {
+      "username": "LordBlazeWolf5285",
+      "streak": 4
+    },
+    {
+      "username": "MissCOZ-Chill",
       "streak": 4
     },
     {
@@ -32,34 +40,26 @@
       "streak": 3
     },
     {
-      "username": "LordBlazeWolf5285",
-      "streak": 3
-    },
-    {
-      "username": "MissCOZ-Chill",
-      "streak": 3
-    },
-    {
-      "username": "abdeslambenyadine855",
-      "streak": 2
-    },
-    {
       "username": "Dipshitasaurus_Rex",
-      "streak": 2
+      "streak": 3
     },
     {
       "username": "Paleblood1965",
-      "streak": 2
+      "streak": 3
+    },
+    {
+      "username": "StonebornHQ",
+      "streak": 3
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 131
+      "streams": 132
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 90
+      "streams": 91
     },
     {
       "username": "lashonnakennybrew4847",
@@ -79,7 +79,7 @@
     },
     {
       "username": "LordBlazeWolf5285",
-      "streams": 71
+      "streams": 72
     },
     {
       "username": "Lark_man",
@@ -91,7 +91,7 @@
     },
     {
       "username": "moonlitshadow375",
-      "streams": 55
+      "streams": 56
     }
   ],
   "watchtime_leaders": [
@@ -138,54 +138,54 @@
   ],
   "top_chatters": [
     {
-      "username": "LordBlazeWolf5285",
-      "messages": 101
-    },
-    {
       "username": "moonlitshadow375",
-      "messages": 72
+      "messages": 54
     },
     {
-      "username": "AMGthePedoKiller",
-      "messages": 53
-    },
-    {
-      "username": "solomonsignet",
-      "messages": 32
-    },
-    {
-      "username": "Dipshitasaurus_Rex",
-      "messages": 30
-    },
-    {
-      "username": "nytowl3166",
-      "messages": 18
-    },
-    {
-      "username": "AliKhan-AK9",
-      "messages": 9
-    },
-    {
-      "username": "SirX704",
-      "messages": 8
+      "username": "LordBlazeWolf5285",
+      "messages": 52
     },
     {
       "username": "VroodenTheGreat",
-      "messages": 7
+      "messages": 36
+    },
+    {
+      "username": "Dipshitasaurus_Rex",
+      "messages": 24
+    },
+    {
+      "username": "EeveeMW2",
+      "messages": 20
+    },
+    {
+      "username": "TheFrogNationCEO",
+      "messages": 13
     },
     {
       "username": "mmb-z7g",
-      "messages": 6
+      "messages": 8
+    },
+    {
+      "username": "Shax4187",
+      "messages": 8
+    },
+    {
+      "username": "Paleblood1965",
+      "messages": 5
+    },
+    {
+      "username": "StonebornHQ",
+      "messages": 5
     }
   ],
   "all_time_chatters": [
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 2192
+      "messages": 2216
     },
     {
       "username": "LordBlazeWolf5285",
-      "messages": 2039
+      "messages": 2091
     },
     {
       "username": "lashonnakennybrew4847",
@@ -197,7 +197,7 @@
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 1316
+      "messages": 1320
     },
     {
       "username": "JAYDONDO",
@@ -208,12 +208,12 @@
       "messages": 1233
     },
     {
-      "username": "AliKhan-AK9",
-      "messages": 873
+      "username": "moonlitshadow375",
+      "messages": 880
     },
     {
-      "username": "moonlitshadow375",
-      "messages": 826
+      "username": "AliKhan-AK9",
+      "messages": 873
     },
     {
       "username": "scaleworksRC",
@@ -221,9 +221,9 @@
     }
   ],
   "all_time": {
-    "validated_streams": 151,
-    "total_streams": 159,
-    "total_messages": 26557,
-    "unique_chatters": 513
+    "validated_streams": 152,
+    "total_streams": 160,
+    "total_messages": 26793,
+    "unique_chatters": 514
   }
 }
