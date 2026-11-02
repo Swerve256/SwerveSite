@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01T15:54:34-06:00",
+  "generated_at": "2026-11-01T21:43:52-06:00",
   "latest_stream": {
-    "stream_id": 163,
+    "stream_id": 164,
     "date": "2026-11-01",
-    "title": "Dad & Daughter vs. The Garden From HELL! \ud83c\udf3f\ud83d\udc80 | It Takes Two",
+    "title": "DATHOMIR IS A NIGHTMARE\u2026 \ud83d\udc80 | Star Wars Jedi: Fallen Order (Grand Master Ep. 6)",
     "game": "",
-    "duration": "2h 47m",
-    "messages": 96,
-    "unique_chatters": 13,
-    "top_chatter": "EeveeMW2"
+    "duration": "2h 49m",
+    "messages": 420,
+    "unique_chatters": 18,
+    "top_chatter": "Catsanddogshavefun"
   },
   "streak_leaders": [
     {
@@ -20,11 +20,11 @@
       "streak": 8
     },
     {
-      "username": "Dipshitasaurus_Rex",
-      "streak": 6
+      "username": "LordBlazeWolf5285",
+      "streak": 7
     },
     {
-      "username": "LordBlazeWolf5285",
+      "username": "Dipshitasaurus_Rex",
       "streak": 6
     },
     {
@@ -36,30 +36,30 @@
       "streak": 3
     },
     {
-      "username": "solomonsignet",
-      "streak": 2
-    },
-    {
-      "username": "TheFrogNationCEO",
-      "streak": 2
-    },
-    {
       "username": "void_walker2304",
+      "streak": 3
+    },
+    {
+      "username": "JAYDONDO",
       "streak": 2
     },
     {
-      "username": "BlazedAngel",
-      "streak": 1
+      "username": "Niroko_WoW",
+      "streak": 2
+    },
+    {
+      "username": "SirX704",
+      "streak": 2
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 135
+      "streams": 136
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 94
+      "streams": 95
     },
     {
       "username": "lashonnakennybrew4847",
@@ -67,15 +67,15 @@
     },
     {
       "username": "AliKhan-AK9",
-      "streams": 75
+      "streams": 76
     },
     {
       "username": "solomonsignet",
-      "streams": 75
+      "streams": 76
     },
     {
       "username": "LordBlazeWolf5285",
-      "streams": 74
+      "streams": 75
     },
     {
       "username": "vinitovincenzo",
@@ -87,11 +87,11 @@
     },
     {
       "username": "Catsanddogshavefun",
-      "streams": 63
+      "streams": 64
     },
     {
       "username": "moonlitshadow375",
-      "streams": 59
+      "streams": 60
     }
   ],
   "watchtime_leaders": [
@@ -138,82 +138,82 @@
   ],
   "top_chatters": [
     {
-      "username": "EeveeMW2",
-      "messages": 21
+      "username": "Catsanddogshavefun",
+      "messages": 92
     },
     {
-      "username": "solomonsignet",
-      "messages": 16
+      "username": "LordBlazeWolf5285",
+      "messages": 77
     },
     {
-      "username": "SharkySharkz1",
-      "messages": 13
+      "username": "AliKhan-AK9",
+      "messages": 63
     },
     {
-      "username": "MissCOZ-Chill",
-      "messages": 10
-    },
-    {
-      "username": "moonlitshadow375",
-      "messages": 10
-    },
-    {
-      "username": "EthanL04b",
-      "messages": 5
-    },
-    {
-      "username": "Paleblood1965",
-      "messages": 5
+      "username": "Niroko_WoW",
+      "messages": 41
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 4
+      "messages": 29
     },
     {
-      "username": "TheFrogNationCEO",
-      "messages": 4
+      "username": "moonlitshadow375",
+      "messages": 29
+    },
+    {
+      "username": "void_walker2304",
+      "messages": 26
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 3
+      "messages": 22
+    },
+    {
+      "username": "solomonsignet",
+      "messages": 11
+    },
+    {
+      "username": "EthanL04b",
+      "messages": 7
     }
   ],
   "all_time_chatters": [
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 2319
+      "messages": 2348
     },
     {
       "username": "LordBlazeWolf5285",
-      "messages": 2194
+      "messages": 2271
     },
     {
       "username": "lashonnakennybrew4847",
       "messages": 1807
     },
     {
-      "username": "solomonsignet",
-      "messages": 1380
+      "username": "AMGthePedoKiller",
+      "messages": 1397
     },
     {
-      "username": "AMGthePedoKiller",
-      "messages": 1375
+      "username": "solomonsignet",
+      "messages": 1391
     },
     {
       "username": "JAYDONDO",
-      "messages": 1325
+      "messages": 1327
     },
     {
       "username": "Catsanddogshavefun",
-      "messages": 1233
+      "messages": 1325
     },
     {
       "username": "moonlitshadow375",
-      "messages": 1008
+      "messages": 1037
     },
     {
       "username": "AliKhan-AK9",
-      "messages": 900
+      "messages": 963
     },
     {
       "username": "scaleworksRC",
@@ -221,9 +221,9 @@
     }
   ],
   "all_time": {
-    "validated_streams": 155,
-    "total_streams": 163,
-    "total_messages": 27556,
-    "unique_chatters": 517
+    "validated_streams": 156,
+    "total_streams": 164,
+    "total_messages": 27973,
+    "unique_chatters": 518
   }
 }
