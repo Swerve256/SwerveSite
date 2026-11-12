@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-10T20:49:23-06:00",
+  "generated_at": "2026-11-11T22:14:07-06:00",
   "latest_stream": {
-    "stream_id": 172,
-    "date": "2026-11-10",
-    "title": "THEY TOLD ME TO LEVEL UP\u2026 I SAID NO! \ud83d\udc80 | Phantom Blade Zero (Ep. 6)",
+    "stream_id": 174,
+    "date": "2026-11-11",
+    "title": "SOMETHING IS WRONG WITH THIS VILLAGE\u2026 \ud83d\udc80 | Phantom Blade Zero (Ep. 7)",
     "game": "",
-    "duration": "3h 43m",
-    "messages": 393,
-    "unique_chatters": 18,
-    "top_chatter": "LordBlazeWolf5285"
+    "duration": "3h 57m",
+    "messages": 202,
+    "unique_chatters": 13,
+    "top_chatter": "CyrexMafia-m3s"
   },
   "streak_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streak": 40
+      "streak": 41
     },
     {
       "username": "moonlitshadow375",
@@ -21,7 +21,7 @@
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streak": 14
+      "streak": 15
     },
     {
       "username": "StonebornHQ",
@@ -29,7 +29,7 @@
     },
     {
       "username": "EeveeMW2",
-      "streak": 5
+      "streak": 6
     },
     {
       "username": "LordBlazeWolf5285",
@@ -44,30 +44,30 @@
       "streak": 5
     },
     {
-      "username": "SharkySharkz1",
+      "username": "keyonscott2292",
       "streak": 4
     },
     {
-      "username": "keyonscott2292",
-      "streak": 3
+      "username": "SharkySharkz1",
+      "streak": 4
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 144
+      "streams": 145
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 103
+      "streams": 104
     },
     {
       "username": "lashonnakennybrew4847",
-      "streams": 88
+      "streams": 89
     },
     {
       "username": "AliKhan-AK9",
-      "streams": 81
+      "streams": 82
     },
     {
       "username": "LordBlazeWolf5285",
@@ -138,44 +138,44 @@
   ],
   "top_chatters": [
     {
-      "username": "LordBlazeWolf5285",
-      "messages": 85
-    },
-    {
-      "username": "AMGthePedoKiller",
-      "messages": 82
+      "username": "CyrexMafia-m3s",
+      "messages": 43
     },
     {
       "username": "EeveeMW2",
-      "messages": 63
+      "messages": 37
     },
     {
-      "username": "SharkySharkz1",
-      "messages": 55
-    },
-    {
-      "username": "Catsanddogshavefun",
-      "messages": 16
-    },
-    {
-      "username": "Dipshitasaurus_Rex",
-      "messages": 16
-    },
-    {
-      "username": "Schmaus1975",
-      "messages": 16
+      "username": "AMGthePedoKiller",
+      "messages": 33
     },
     {
       "username": "jjpuddin",
+      "messages": 23
+    },
+    {
+      "username": "AliKhan-AK9",
+      "messages": 19
+    },
+    {
+      "username": "Sinistr87",
       "messages": 15
     },
     {
-      "username": "keyonscott2292",
-      "messages": 11
+      "username": "Gaming-wit-Icy985",
+      "messages": 8
     },
     {
-      "username": "Lark_man",
-      "messages": 9
+      "username": "lashonnakennybrew4847",
+      "messages": 8
+    },
+    {
+      "username": "Dipshitasaurus_Rex",
+      "messages": 5
+    },
+    {
+      "username": "bahamut3973",
+      "messages": 4
     }
   ],
   "all_time_chatters": [
@@ -185,15 +185,15 @@
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 2481
+      "messages": 2486
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 1937
+      "messages": 1970
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1822
+      "messages": 1830
     },
     {
       "username": "solomonsignet",
@@ -213,17 +213,17 @@
     },
     {
       "username": "AliKhan-AK9",
-      "messages": 1090
+      "messages": 1109
     },
     {
       "username": "EeveeMW2",
-      "messages": 769
+      "messages": 806
     }
   ],
   "all_time": {
-    "validated_streams": 164,
-    "total_streams": 172,
-    "total_messages": 30845,
-    "unique_chatters": 529
+    "validated_streams": 165,
+    "total_streams": 174,
+    "total_messages": 31045,
+    "unique_chatters": 531
   }
 }
