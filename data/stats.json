@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-21T15:28:41-06:00",
+  "generated_at": "2026-11-22T00:36:56-06:00",
   "latest_stream": {
-    "stream_id": 184,
+    "stream_id": 185,
     "date": "2026-11-21",
-    "title": "Episode 19 \u2014 The TRUE Finale",
+    "title": "THE WAIT IS FINALLY OVER! \ud83d\udd25 | GTA VI (Ep. 1)",
     "game": "",
-    "duration": "1h 26m",
-    "messages": 138,
-    "unique_chatters": 12,
-    "top_chatter": "AMGthePedoKiller"
+    "duration": "5h 29m",
+    "messages": 304,
+    "unique_chatters": 24,
+    "top_chatter": "moonlitshadow375"
   },
   "streak_leaders": [
     {
@@ -44,34 +44,34 @@
       "streak": 3
     },
     {
-      "username": "solomonsignet",
+      "username": "jjpuddin",
       "streak": 3
     },
     {
-      "username": "jjpuddin",
-      "streak": 2
+      "username": "solomonsignet",
+      "streak": 3
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 155
+      "streams": 156
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "streams": 113
+      "streams": 114
     },
     {
       "username": "lashonnakennybrew4847",
-      "streams": 94
+      "streams": 95
     },
     {
       "username": "vinitovincenzo",
-      "streams": 91
+      "streams": 92
     },
     {
       "username": "AliKhan-AK9",
-      "streams": 85
+      "streams": 86
     },
     {
       "username": "LordBlazeWolf5285",
@@ -79,19 +79,19 @@
     },
     {
       "username": "solomonsignet",
-      "streams": 83
+      "streams": 84
     },
     {
       "username": "moonlitshadow375",
-      "streams": 77
+      "streams": 78
     },
     {
       "username": "Catsanddogshavefun",
-      "streams": 76
+      "streams": 77
     },
     {
       "username": "Lark_man",
-      "streams": 72
+      "streams": 73
     }
   ],
   "watchtime_leaders": [
@@ -138,44 +138,44 @@
   ],
   "top_chatters": [
     {
-      "username": "AMGthePedoKiller",
-      "messages": 49
-    },
-    {
-      "username": "EeveeMW2",
-      "messages": 15
-    },
-    {
-      "username": "Dipshitasaurus_Rex",
-      "messages": 12
-    },
-    {
       "username": "moonlitshadow375",
-      "messages": 11
+      "messages": 47
     },
     {
-      "username": "Schmaus1975",
-      "messages": 11
+      "username": "Dwight-h4t",
+      "messages": 39
+    },
+    {
+      "username": "lashonnakennybrew4847",
+      "messages": 34
     },
     {
       "username": "solomonsignet",
-      "messages": 11
+      "messages": 25
     },
     {
-      "username": "StonebornHQ",
+      "username": "AMGthePedoKiller",
+      "messages": 21
+    },
+    {
+      "username": "Schmaus1975",
+      "messages": 21
+    },
+    {
+      "username": "AliKhan-AK9",
+      "messages": 16
+    },
+    {
+      "username": "qqmooqqquenta8161",
+      "messages": 16
+    },
+    {
+      "username": "keyonscott2292",
+      "messages": 14
+    },
+    {
+      "username": "keshav671able",
       "messages": 10
-    },
-    {
-      "username": "Gaming-wit-Icy985",
-      "messages": 7
-    },
-    {
-      "username": "vinitovincenzo",
-      "messages": 7
-    },
-    {
-      "username": "Icequeencastle2",
-      "messages": 2
     }
   ],
   "all_time_chatters": [
@@ -185,27 +185,27 @@
     },
     {
       "username": "Dipshitasaurus_Rex",
-      "messages": 2619
+      "messages": 2623
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 2299
+      "messages": 2320
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1866
-    },
-    {
-      "username": "Catsanddogshavefun",
-      "messages": 1619
+      "messages": 1900
     },
     {
       "username": "solomonsignet",
-      "messages": 1613
+      "messages": 1638
+    },
+    {
+      "username": "Catsanddogshavefun",
+      "messages": 1628
     },
     {
       "username": "moonlitshadow375",
-      "messages": 1391
+      "messages": 1438
     },
     {
       "username": "JAYDONDO",
@@ -213,17 +213,17 @@
     },
     {
       "username": "EeveeMW2",
-      "messages": 1322
+      "messages": 1327
     },
     {
       "username": "AliKhan-AK9",
-      "messages": 1157
+      "messages": 1173
     }
   ],
   "all_time": {
-    "validated_streams": 175,
-    "total_streams": 184,
-    "total_messages": 34099,
-    "unique_chatters": 542
+    "validated_streams": 176,
+    "total_streams": 185,
+    "total_messages": 34403,
+    "unique_chatters": 544
   }
 }
