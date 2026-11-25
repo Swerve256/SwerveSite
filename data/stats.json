@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-24T21:19:38-06:00",
+  "generated_at": "2026-11-25T17:24:00-06:00",
   "latest_stream": {
-    "stream_id": 188,
-    "date": "2026-11-24",
-    "title": "LUCIA'S DOING WHATEVER IT TAKES! \ud83d\udc80 | GTA VI (Ep. 4)",
+    "stream_id": 189,
+    "date": "2026-11-25",
+    "title": "A NEW CHAPTER, NEW TROUBLE! \ud83d\udc80 | GTA VI (Ep. 5)",
     "game": "",
-    "duration": "3h 47m",
-    "messages": 151,
-    "unique_chatters": 19,
-    "top_chatter": "scaleworksRC"
+    "duration": "2h 01m",
+    "messages": 108,
+    "unique_chatters": 15,
+    "top_chatter": "solomonsignet"
   },
   "streak_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streak": 53
+      "streak": 54
     },
     {
       "username": "Dipshitasaurus_Rex",
@@ -21,18 +21,22 @@
     },
     {
       "username": "moonlitshadow375",
-      "streak": 9
+      "streak": 10
     },
     {
       "username": "lashonnakennybrew4847",
       "streak": 5
     },
     {
-      "username": "qqmooqqquenta8161",
-      "streak": 4
+      "username": "jjpuddin",
+      "streak": 3
     },
     {
-      "username": "jjpuddin",
+      "username": "Catsanddogshavefun",
+      "streak": 2
+    },
+    {
+      "username": "MissCOZ-Chill",
       "streak": 2
     },
     {
@@ -40,22 +44,18 @@
       "streak": 2
     },
     {
-      "username": "BlazedAngel",
-      "streak": 1
+      "username": "StonebornHQ",
+      "streak": 2
     },
     {
-      "username": "Catsanddogshavefun",
-      "streak": 1
-    },
-    {
-      "username": "EeveeMW2",
-      "streak": 1
+      "username": "vinitovincenzo",
+      "streak": 2
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 159
+      "streams": 160
     },
     {
       "username": "Dipshitasaurus_Rex",
@@ -67,10 +67,14 @@
     },
     {
       "username": "vinitovincenzo",
-      "streams": 93
+      "streams": 94
     },
     {
       "username": "AliKhan-AK9",
+      "streams": 86
+    },
+    {
+      "username": "solomonsignet",
       "streams": 86
     },
     {
@@ -78,20 +82,16 @@
       "streams": 85
     },
     {
-      "username": "solomonsignet",
-      "streams": 85
-    },
-    {
       "username": "moonlitshadow375",
-      "streams": 81
+      "streams": 82
     },
     {
       "username": "Catsanddogshavefun",
-      "streams": 79
+      "streams": 80
     },
     {
       "username": "Lark_man",
-      "streams": 74
+      "streams": 75
     }
   ],
   "watchtime_leaders": [
@@ -138,43 +138,43 @@
   ],
   "top_chatters": [
     {
-      "username": "scaleworksRC",
-      "messages": 45
+      "username": "solomonsignet",
+      "messages": 24
     },
     {
-      "username": "jjpuddin",
-      "messages": 30
+      "username": "SharkySharkz1",
+      "messages": 19
     },
     {
-      "username": "lashonnakennybrew4847",
+      "username": "MissCOZ-Chill",
       "messages": 13
     },
     {
-      "username": "moonlitshadow375",
-      "messages": 13
-    },
-    {
-      "username": "EeveeMW2",
+      "username": "Catsanddogshavefun",
       "messages": 12
     },
     {
-      "username": "Dipshitasaurus_Rex",
-      "messages": 7
+      "username": "AMGthePedoKiller",
+      "messages": 10
     },
     {
-      "username": "msclaire1782",
+      "username": "moonlitshadow375",
       "messages": 6
     },
     {
-      "username": "AMGthePedoKiller",
+      "username": "JAYDONDO",
       "messages": 5
     },
     {
-      "username": "Gaming-wit-Icy985",
+      "username": "Lark_man",
+      "messages": 4
+    },
+    {
+      "username": "pepychangamer",
       "messages": 3
     },
     {
-      "username": "HOUSEOFXENTERTAINMENTINC",
+      "username": "xtremetuberVII",
       "messages": 3
     }
   ],
@@ -189,7 +189,7 @@
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 2342
+      "messages": 2352
     },
     {
       "username": "lashonnakennybrew4847",
@@ -197,19 +197,19 @@
     },
     {
       "username": "solomonsignet",
-      "messages": 1662
+      "messages": 1686
     },
     {
       "username": "Catsanddogshavefun",
-      "messages": 1640
+      "messages": 1652
     },
     {
       "username": "moonlitshadow375",
-      "messages": 1485
+      "messages": 1491
     },
     {
       "username": "JAYDONDO",
-      "messages": 1360
+      "messages": 1365
     },
     {
       "username": "EeveeMW2",
@@ -221,9 +221,9 @@
     }
   ],
   "all_time": {
-    "validated_streams": 179,
-    "total_streams": 188,
-    "total_messages": 34821,
-    "unique_chatters": 548
+    "validated_streams": 180,
+    "total_streams": 189,
+    "total_messages": 34929,
+    "unique_chatters": 550
   }
 }
