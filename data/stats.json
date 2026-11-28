@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-27T16:01:11-06:00",
+  "generated_at": "2026-11-28T00:16:53-06:00",
   "latest_stream": {
-    "stream_id": 193,
+    "stream_id": 194,
     "date": "2026-11-27",
-    "title": "A JEDI'S FIGHT IS NEVER OVER\u2026 \u2694\ufe0f | Star Wars Jedi: Survivor (Grand Master Ep. 1)",
+    "title": "ONE STEP AHEAD OF THE LAW! \ud83d\udea8 | GTA VI (Ep. 7)",
     "game": "",
-    "duration": "3h 10m",
-    "messages": 171,
-    "unique_chatters": 14,
-    "top_chatter": "Catsanddogshavefun"
+    "duration": "5h 15m",
+    "messages": 93,
+    "unique_chatters": 12,
+    "top_chatter": "BritneyDeniseSedano"
   },
   "streak_leaders": [
     {
@@ -40,22 +40,22 @@
       "streak": 3
     },
     {
-      "username": "vinitovincenzo",
-      "streak": 3
-    },
-    {
-      "username": "Schmaus1975",
+      "username": "lashonnakennybrew4847",
       "streak": 2
     },
     {
-      "username": "daffyduck4134",
+      "username": "abdeslambenyadine855",
+      "streak": 1
+    },
+    {
+      "username": "BritneyDeniseSedano",
       "streak": 1
     }
   ],
   "attendance_leaders": [
     {
       "username": "AMGthePedoKiller",
-      "streams": 163
+      "streams": 164
     },
     {
       "username": "Dipshitasaurus_Rex",
@@ -63,7 +63,7 @@
     },
     {
       "username": "lashonnakennybrew4847",
-      "streams": 99
+      "streams": 100
     },
     {
       "username": "vinitovincenzo",
@@ -71,7 +71,7 @@
     },
     {
       "username": "solomonsignet",
-      "streams": 89
+      "streams": 90
     },
     {
       "username": "AliKhan-AK9",
@@ -138,44 +138,44 @@
   ],
   "top_chatters": [
     {
-      "username": "Catsanddogshavefun",
-      "messages": 38
+      "username": "BritneyDeniseSedano",
+      "messages": 34
     },
     {
-      "username": "moonlitshadow375",
-      "messages": 30
-    },
-    {
-      "username": "LordBlazeWolf5285",
-      "messages": 25
-    },
-    {
-      "username": "SharkySharkz1",
-      "messages": 16
-    },
-    {
-      "username": "Dipshitasaurus_Rex",
+      "username": "JAYDONDO",
       "messages": 14
     },
     {
       "username": "solomonsignet",
-      "messages": 14
+      "messages": 10
     },
     {
-      "username": "jjpuddin",
-      "messages": 9
-    },
-    {
-      "username": "AMGthePedoKiller",
+      "username": "TheKRtika",
       "messages": 8
     },
     {
-      "username": "JAYDONDO",
+      "username": "jjpuddin",
+      "messages": 6
+    },
+    {
+      "username": "lashonnakennybrew4847",
       "messages": 5
     },
     {
-      "username": "StonebornHQ",
-      "messages": 5
+      "username": "EeveeMW2",
+      "messages": 4
+    },
+    {
+      "username": "abdeslambenyadine855",
+      "messages": 2
+    },
+    {
+      "username": "Logicallyfaded",
+      "messages": 2
+    },
+    {
+      "username": "ZacharyGoff-w6d",
+      "messages": 2
     }
   ],
   "all_time_chatters": [
@@ -189,15 +189,15 @@
     },
     {
       "username": "AMGthePedoKiller",
-      "messages": 2372
+      "messages": 2373
     },
     {
       "username": "lashonnakennybrew4847",
-      "messages": 1945
+      "messages": 1950
     },
     {
       "username": "solomonsignet",
-      "messages": 1729
+      "messages": 1739
     },
     {
       "username": "Catsanddogshavefun",
@@ -209,11 +209,11 @@
     },
     {
       "username": "JAYDONDO",
-      "messages": 1390
+      "messages": 1404
     },
     {
       "username": "EeveeMW2",
-      "messages": 1369
+      "messages": 1373
     },
     {
       "username": "AliKhan-AK9",
@@ -221,9 +221,9 @@
     }
   ],
   "all_time": {
-    "validated_streams": 183,
-    "total_streams": 193,
-    "total_messages": 35437,
-    "unique_chatters": 559
+    "validated_streams": 184,
+    "total_streams": 194,
+    "total_messages": 35525,
+    "unique_chatters": 562
   }
 }
